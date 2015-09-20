@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <style type="text/css">
+    @import url("fonts.css");
+
+    html, body, div, footer, button, span, h1, h2, h3, h4, li, ul, hr, p, textarea, time, input, tr, td, article, section {
+      margin: 0;
+      padding: 0;
+      border: none;
+      -moz-box-sizing: border-box;
+      background-repeat: no-repeat;
+      -moz-osx-font-smoothing: grayscale;
+      box-shadow: none;
+      outline: none;
+      color: inherit;
+    }
+
+    ul, li {
+      list-style: none;
+    }
+
+    html {
+      background-color: white;
+      overflow: hidden;
+    }
+
+    body {
+      font-family: "Gotham Medium", sans-serif;
+      font-size: 13px;
+      text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6);
+      background-color: #2f373d;
+      overflow: hidden;
+      width: 452px;
+      -moz-box-sizing: padding-box;
+    }
+
+    a {
+      text-decoration: none;
+      color: #fff;
+    }
+
+    a:hover, a:active {
+      text-decoration: underline;
+    }
+
+    .clickable {
+      cursor: pointer;
+    }
+
+    #main {
+      color: #fff;
+      padding: 10px;
+      position: relative;
+    }
+
+    #close {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      width: 14px;
+      height: 14px;
+      background-image: url(images/close.png);
+      background-size: 14px 14px;
+    }
+
+    .top {
+      padding: 14px 14px 18px 14px;
+      border-bottom: 1px solid #21262c;
+    }
+
+    .shrink .top {
+      border-bottom: none;
+      min-height: 56px;
+    }
+
+    .top h1 {
+      color: #26b064;
+      font-family: "caecilia", serif;
+      font-size: 15px;
+      padding-left: 24px;
+      background-clip: padding-box;
+      background-image: url(images/checkmark.png);
+      background-position: 0px 50%;
+      margin-bottom: 18px;
+      max-width: 100%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .top h2 {
+      font-family: "caecilia-italic", serif;
+      font-size: 15px;
+      max-width: 100%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .bottom {
+      padding: 22px 14px 20px 14px;
+      border-top: 1px solid #495865;
+    }
+
+    .shrink .bottom {
+      display: none;
+    }
+
+
+    .tabs {
+      margin-bottom: 27px;
+      color: #8a98a2;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .tabs span {
+      font-family: "Gotham Medium", sans-serif;
+      font-size: 13px;
+      text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6);
+    }
+
+    .tabs span.active {
+      color: #fff;
+    }
+
+
+
+    .related {
+      margin-right: 30px;
+    }
+
+    .notes {
+      position: absolute;
+      top: 0px;
+      height: 246px;
+      transition: left 0.2s;
+    }
+
+    .left_column {
+      display: inline-block;
+      -width: 190px;
+      width: 50%;
+      vertical-align: top;
+      overflow: hidden;
+    }
+
+    .right_column {
+      display: inline-block;
+      width: 50%;
+      vertical-align: top;
+      overflow: hidden;
+
+    }
+
+    .notes h1 {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      font-family: "Gotham Medium", sans-serif;
+      font-size: 13px;
+      color: #c8d4dc;
+    }
+
+
+    .notes  {
+      font-family: "Gotham Medium", sans-serif;
+      font-size: 11px;
+      color: #8a9ca8;
+      width: 414px;
+    }
+
+    .notes p {
+      text-shadow: none;
+      line-height: 1.25em;
+      margin-top: 5px;
+      cursor: pointer;
+
+    }
+
+    .notes a {
+      color: #8a9ca8;
+      cursor: pointer;
+    }
+
+    .notes  {
+      color: #8a9ca8;
+    }
+
+    .loading {
+      background-image: url('images/loading.gif');
+      background-size: 26px 26px;
+      background-repeat: no-repeat;
+      background-position: center center;
+      min-height: 26px;
+      min-width: 26px;
+    }
+
+    .noresult {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      right: 0px;
+      bottom: 0px;
+      z-index: 1;
+      text-align: center;
+      vertical-align: middle;
+      padding-top: 80px;
+      background-color: #2f373d;
+      font-size: 21px;
+    }
+
+    #relatednotes article {
+      overflow: hidden;
+    }
+
+    #relatednotes  article:hover p, #relatednotes  article:hover h1,  #relatednotes  article:hover time,
+    #samedomainnotes  article:hover p, #samedomainnotes  article:hover h1,  #samedomainnotes  article:hover time {
+      color: #fff;
+    }
+
+    #relatednotes  article p {
+      overflow: hidden;
+    }
+
+    .info a:hover {
+      text-decoration: underline;
+    }
+
+    #article_1 p {
+      max-height: 2.5em;
+      overflow: hidden;
+    }
+
+    #article_2 p {
+      max-height: 3.75em;
+      overflow: hidden;
+    }
+
+    #article_2 {
+      margin-bottom: 23px;
+    }
+
+    #article_3 p {
+      max-height: 3.75em;
+      overflow: hidden;
+    }
+
+    .hidden {
+      visibility: hidden;
+    }
+
+    #samedomainnotes article {
+      display: inline-block;
+      width: 50%;
+      height: 223px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      vertical-align: top;
+      -moz-box-sizing: border-box;
+      padding-right: 24px;
+      margin-bottom: 23px;
+    }
+
+    .tabpanels {
+      position: relative;
+      width: 420px;
+      height: 246px;
+      overflow: hidden;
+    }
+    .bottom input[type='radio'] {
+      display: none;
+    }
+
+    #relatednotes {
+    }
+
+    #samedomainnotes {
+      overflow-x: hidden;
+      overflow-y: auto;
+    }
+
+    #select_related:checked ~ .tabpanels > #relatednotes,
+    [selected='related'] #relatednotes{
+      left: 0px;
+    }
+
+    #select_related:checked ~ .tabpanels > #samedomainnotes,
+    [selected='related'] #samedomainnotes {
+      left: 420px;
+    }
+
+    #select_related:checked ~ .tabs > label > .related,
+    [selected='related'] .related {
+      color: #fff;
+    }
+
+    #select_samedomain:checked ~ .tabs > label > .samedomain,
+    [selected='samedomain'] .samedomain {
+      color: #fff;
+    }
+
+    #select_samedomain:checked ~ .tabpanels > #relatednotes,
+    [selected='samedomain'] #relatednotes {
+      left: -420px;
+    }
+    #select_samedomain:checked ~ .tabpanels > #samedomainnotes,
+    [selected='samedomain'] #samedomainnotes {
+
+      left: 0px;
+    }
+
+    .imgcontainer img {
+      max-width: 190px;
+      max-height: 144px;
+      margin: auto;
+      vertical-align: middle;
+    }
+
+    .imgcontainer {
+      width: 190px;
+      height: 144px;
+      text-align: center;
+      line-height: 144px; /** hacky vertical centering **/
+      background-color: #000;
+      margin-bottom: 5px;
+    }
+
+    .right_column article:first-child {
+      margin-bottom: 23px;
+    }
+
+    .user {
+      color: #c8d4dc;
+      margin-top: 5px;
+      background-position: 0px -5px;
+      background-size: 22px 22px;
+      white-space: nowrap;
+      max-width: 190px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .user.business {
+      background-image: url('images/business_light_icon.png');
+      padding-left: 22px;
+    }
+
+    .user.linked {
+      background-image: url('images/shared_light_icon.png');
+      padding-left: 22px;
+    }
+
+  </style>
+</head>
+<body class="">
+<div id="main">
+  <div id="close" class="clickable"></div>
+  <section class="top">
+    <h1 id="clipped_notebook"></h1>
+    <h2 id="clip_title" class="clickable"></h2>
+  </section>
+  <section class="bottom" selected="">
+    <input type="radio" name="panel_select" id="select_related" value="0" >
+    <input type="radio" name="panel_select" id="select_samedomain" value="1">
+    <div class="tabs">
+      <label for="select_related"><span class="related"  data-l10n-id="relatedNotes" >%Related Notes%</span></label>
+      <label for="select_samedomain"><span class="samedomain">%Clips from<span class="website">%site%</span></span></label>
+    </div>
+    <div class="tabpanels">
+      <div id="relatednotes" class="notes"><div class="left_column">
+        <article id="article_1" class="">
+          <div class="imgcontainer"><img src="" class=""></div>
+          <h1></h1>
+          <div class="info">
+            <time datetime=""></time>
+            <a class="website" target="_blank"></a>
+          </div>
+          <p></p>
+          <div class="user"></div>
+        </article>
+      </div><div class="right_column">
+        <article id="article_2" class="">
+          <h1></h1>
+          <div class="info">
+            <time datetime=""></time>
+            <a class="website" target="_blank"></a>
+          </div>
+          <p></p>
+          <div class="user"></div>
+        </article><article id="article_3" class="">
+          <h1></h1>
+          <div class="info">
+            <time datetime=""></time>
+            <a class="website" target="_blank"></a>
+          </div>
+          <p></p>
+          <div class="user"></div>
+        </article>
+        <div data-l10n-id="noResult" class="noresult"  style="display: none">No Result</div>
+      </div>
+    </div>
+    <div id="samedomainnotes" class="notes">
+      <div data-l10n-id="noResult" class="noresult">No Result</div>
+    </div>
+    </div>
+  </section>
+</div>
+</body>
+</html>

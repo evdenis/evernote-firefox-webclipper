@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<vbox xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <setting data-jetpack-id="{E0B8C461-F8FB-49b4-8373-FE32E9252800}" pref="extensions.{E0B8C461-F8FB-49b4-8373-FE32E9252800}.globalShortcuts" pref-name="globalShortcuts" title="Use keyboard shortcuts" type="bool">Enable global keyboard shortcuts</setting>
+  <setting data-jetpack-id="{E0B8C461-F8FB-49b4-8373-FE32E9252800}" pref="extensions.{E0B8C461-F8FB-49b4-8373-FE32E9252800}.clipDestination" pref-name="clipDestination" title="Save clips to" type="menulist">
+    <menulist>
+      <menupopup>
+        <menuitem label="Cloud" value="cloud"/>
+        <menuitem label="Native client" value="native"/>
+        <menuitem label="File" value="file"/>
+      </menupopup>
+    </menulist>
+  </setting>
+  <setting data-jetpack-id="{E0B8C461-F8FB-49b4-8373-FE32E9252800}" pref="extensions.{E0B8C461-F8FB-49b4-8373-FE32E9252800}.afterClip" pref-name="afterClip" title="After clip" type="menulist">
+    Action after clipping an article
+    <menulist>
+      <menupopup>
+        <menuitem label="Show successful clip dialog" value="full"/>
+        <menuitem label="Show successful clip dialog without related notes" value="shrink"/>
+        <menuitem label="Automatically close clipper" value="close"/>
+      </menupopup>
+    </menulist>
+  </setting>
+  <setting data-jetpack-id="{E0B8C461-F8FB-49b4-8373-FE32E9252800}" pref="extensions.{E0B8C461-F8FB-49b4-8373-FE32E9252800}.smartFilingBiz" pref-name="smartFilingBiz" title="Business Smart filing" type="bool">Allow Smart Filing into Business Notebooks</setting>
+  <setting data-jetpack-id="{E0B8C461-F8FB-49b4-8373-FE32E9252800}" pref="extensions.{E0B8C461-F8FB-49b4-8373-FE32E9252800}.simSearch" pref-name="simSearch" title="Related results" type="bool">Show Related Results when you search the web</setting>
+  <setting data-jetpack-id="{E0B8C461-F8FB-49b4-8373-FE32E9252800}" pref="extensions.{E0B8C461-F8FB-49b4-8373-FE32E9252800}.defaultNotebookGuid" pref-name="defaultNotebookGuid" title="Default notebook GUID" type="string">Save to notebook with GUID</setting>
+  <setting data-jetpack-id="{E0B8C461-F8FB-49b4-8373-FE32E9252800}" pref="extensions.{E0B8C461-F8FB-49b4-8373-FE32E9252800}.notebookSelection" pref-name="notebookSelection" title="Select notebook" type="menulist">
+    Default starting notebook
+    <menulist>
+      <menupopup>
+        <menuitem label="Last used" value="last"/>
+        <menuitem label="Always add to the default notebook" value="fixed"/>
+        <menuitem label="Use smart filing" value="smart"/>
+      </menupopup>
+    </menulist>
+  </setting>
+  <setting data-jetpack-id="{E0B8C461-F8FB-49b4-8373-FE32E9252800}" pref="extensions.{E0B8C461-F8FB-49b4-8373-FE32E9252800}.smartTags" pref-name="smartTags" title="Use smart tags" type="bool">Add smart tags to clipped notes</setting>
+  <setting data-jetpack-id="{E0B8C461-F8FB-49b4-8373-FE32E9252800}" pref="extensions.{E0B8C461-F8FB-49b4-8373-FE32E9252800}.defaultTags" pref-name="defaultTags" title="Use default tags" type="bool">Add default tags to clipped notes</setting>
+  <setting data-jetpack-id="{E0B8C461-F8FB-49b4-8373-FE32E9252800}" pref="extensions.{E0B8C461-F8FB-49b4-8373-FE32E9252800}.defaultTagString" pref-name="defaultTagString" title="Default tag string" type="string">Default tags to add to clipped notes</setting>
+  <setting data-jetpack-id="{E0B8C461-F8FB-49b4-8373-FE32E9252800}" pref="extensions.{E0B8C461-F8FB-49b4-8373-FE32E9252800}.defaultClipAction" pref-name="defaultClipAction" title="Default clip action" type="menulist">
+    Clip action to select by default
+    <menulist>
+      <menupopup>
+        <menuitem label="Last used" value="last"/>
+        <menuitem label="Article" value="article"/>
+        <menuitem label="Simplified article" value="clearly"/>
+        <menuitem label="Full page" value="full"/>
+        <menuitem label="Bookmark" value="url"/>
+      </menupopup>
+    </menulist>
+  </setting>
+</vbox>

@@ -1,0 +1,1037 @@
+{
+ "abort_on_missing": false, 
+ "check_memory": false, 
+ "enable_e10s": false, 
+ "is-sdk-bundled": false, 
+ "jetpackID": "{E0B8C461-F8FB-49b4-8373-FE32E9252800}", 
+ "loader": "addon-sdk/lib/sdk/loader/cuddlefish.js", 
+ "main": "main", 
+ "mainPath": "web_clipper/main", 
+ "manifest": {
+  "toolbarwidget/toolbarwidget": {
+   "docsSHA256": "75fa8af2a848ff8bca539310cad401f7b9aeafed9918c359f0584a3d3039fa2e", 
+   "jsSHA256": "7d9ca365bb9a5e0c7a7dd8fdb2f95603ac66f88f223f8f5a4d654a32922beb6f", 
+   "moduleName": "toolbarwidget", 
+   "packageName": "toolbarwidget", 
+   "requirements": {
+    "sdk/self": "sdk/self", 
+    "sdk/system/unload": "sdk/system/unload", 
+    "sdk/widget": "sdk/widget", 
+    "sdk/window/utils": "sdk/window/utils", 
+    "sdk/windows": "sdk/windows"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "web_clipper/article": {
+   "docsSHA256": null, 
+   "jsSHA256": "569de8c997479c63c6ca3ed560168b3bda0d58d9244cf4300d741e71eeceb465", 
+   "moduleName": "article", 
+   "packageName": "web_clipper", 
+   "requirements": {
+    "./article-detector": "web_clipper/article-detector", 
+    "./article-reformat": "web_clipper/article-reformat", 
+    "./async": "web_clipper/async", 
+    "./auth": "web_clipper/auth", 
+    "./data-clipper": "web_clipper/data-clipper", 
+    "./evernote": "web_clipper/evernote", 
+    "./log": "web_clipper/log", 
+    "./metrics": "web_clipper/metrics", 
+    "./note-util": "web_clipper/note-util", 
+    "./post-clip": "web_clipper/post-clip", 
+    "./rect-selector": "web_clipper/rect-selector", 
+    "./screenshot-selector": "web_clipper/screenshot-selector", 
+    "./selection-clipper": "web_clipper/selection-clipper", 
+    "./session-tracker": "web_clipper/session-tracker", 
+    "./sim-search": "web_clipper/sim-search", 
+    "./skitch": "web_clipper/skitch", 
+    "./tracker": "web_clipper/tracker", 
+    "./util": "web_clipper/util", 
+    "./xslt": "web_clipper/xslt", 
+    "@l10n/data": "@l10n/data", 
+    "sdk/addon/window": "sdk/addon/window", 
+    "sdk/core/promise": "sdk/core/promise", 
+    "sdk/event/core": "sdk/event/core", 
+    "sdk/l10n": "sdk/l10n", 
+    "sdk/loader/sandbox": "sdk/loader/sandbox", 
+    "sdk/places/favicon": "sdk/places/favicon", 
+    "sdk/self": "sdk/self", 
+    "sdk/simple-prefs": "sdk/simple-prefs", 
+    "sdk/timers": "sdk/timers"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "web_clipper/article-detector": {
+   "docsSHA256": null, 
+   "jsSHA256": "6ecb56199dc4c8d0aa031b14512c7d62ffc8d43796dd316d58f819741ce79e38", 
+   "moduleName": "article-detector", 
+   "packageName": "web_clipper", 
+   "requirements": {
+    "./log": "web_clipper/log", 
+    "./tracker": "web_clipper/tracker", 
+    "./util": "web_clipper/util", 
+    "sdk/core/promise": "sdk/core/promise", 
+    "sdk/event/core": "sdk/event/core", 
+    "sdk/loader/sandbox": "sdk/loader/sandbox", 
+    "sdk/net/xhr": "sdk/net/xhr", 
+    "sdk/self": "sdk/self"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "web_clipper/article-reformat": {
+   "docsSHA256": null, 
+   "jsSHA256": "94d2e481f00d6df1f460f1e34e146660ffe51e65e3a691bcf4601e820ebe938a", 
+   "moduleName": "article-reformat", 
+   "packageName": "web_clipper", 
+   "requirements": {
+    "./evernote": "web_clipper/evernote", 
+    "./log": "web_clipper/log", 
+    "./tracker": "web_clipper/tracker", 
+    "./util": "web_clipper/util", 
+    "./xslt": "web_clipper/xslt", 
+    "sdk/addon/window": "sdk/addon/window", 
+    "sdk/core/promise": "sdk/core/promise", 
+    "sdk/self": "sdk/self"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "web_clipper/async": {
+   "docsSHA256": null, 
+   "jsSHA256": "55f828652744c9679abb89cbd08bb8d7524d73fc7c622bbbdd97e8f2239e774e", 
+   "moduleName": "async", 
+   "packageName": "web_clipper", 
+   "requirements": {
+    "./log": "web_clipper/log", 
+    "sdk/core/promise": "sdk/core/promise", 
+    "sdk/timers": "sdk/timers"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "web_clipper/auth": {
+   "docsSHA256": null, 
+   "jsSHA256": "09f40e4a792c13c6bc9e7fcea7812c54a8ee29d159f2c1c78167a056973d1651", 
+   "moduleName": "auth", 
+   "packageName": "web_clipper", 
+   "requirements": {
+    "./async": "web_clipper/async", 
+    "./boot": "web_clipper/boot", 
+    "./evernote": "web_clipper/evernote", 
+    "./log": "web_clipper/log", 
+    "./metrics": "web_clipper/metrics", 
+    "./rpc": "web_clipper/rpc", 
+    "./url": "web_clipper/url", 
+    "./util": "web_clipper/util", 
+    "sdk/core/promise": "sdk/core/promise", 
+    "sdk/event/core": "sdk/event/core", 
+    "sdk/simple-storage": "sdk/simple-storage"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "web_clipper/boot": {
+   "docsSHA256": null, 
+   "jsSHA256": "f66b61ec1e59fbe1b4cbb98b14dd074574f82ff1138f8a78454de8421e78ff1b", 
+   "moduleName": "boot", 
+   "packageName": "web_clipper", 
+   "requirements": {
+    "./async": "web_clipper/async", 
+    "./auth": "web_clipper/auth", 
+    "./evernote": "web_clipper/evernote", 
+    "./log": "web_clipper/log", 
+    "./rpc": "web_clipper/rpc", 
+    "./thrift-box": "web_clipper/thrift-box", 
+    "./util": "web_clipper/util", 
+    "sdk/core/promise": "sdk/core/promise", 
+    "sdk/deprecated/api-utils": "sdk/deprecated/api-utils", 
+    "sdk/event/core": "sdk/event/core", 
+    "sdk/self": "sdk/self", 
+    "sdk/simple-prefs": "sdk/simple-prefs", 
+    "sdk/simple-storage": "sdk/simple-storage"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "web_clipper/data-clipper": {
+   "docsSHA256": null, 
+   "jsSHA256": "3ea2a8646df7cc08c235354158a2c714d08a2391c5762b1df43993ffda46f8c4", 
+   "moduleName": "data-clipper", 
+   "packageName": "web_clipper", 
+   "requirements": {
+    "./evernote": "web_clipper/evernote", 
+    "./log": "web_clipper/log", 
+    "./md5": "web_clipper/md5", 
+    "./net": "web_clipper/net", 
+    "./note-util": "web_clipper/note-util", 
+    "./tracker": "web_clipper/tracker", 
+    "./util": "web_clipper/util", 
+    "./xslt": "web_clipper/xslt", 
+    "sdk/core/promise": "sdk/core/promise", 
+    "sdk/event/core": "sdk/event/core", 
+    "sdk/self": "sdk/self"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "web_clipper/evernote": {
+   "docsSHA256": null, 
+   "jsSHA256": "8c813d8484e48d5b8184626e43fc952a8134ac9a53a6159c96638300400aab0f", 
+   "moduleName": "evernote", 
+   "packageName": "web_clipper", 
+   "requirements": {
+    "./async": "web_clipper/async", 
+    "./auth": "web_clipper/auth", 
+    "./boot": "web_clipper/boot", 
+    "./log": "web_clipper/log", 
+    "./metrics": "web_clipper/metrics", 
+    "./native": "web_clipper/native", 
+    "./net": "web_clipper/net", 
+    "./rpc": "web_clipper/rpc", 
+    "./thrift-box": "web_clipper/thrift-box", 
+    "./url": "web_clipper/url", 
+    "./util": "web_clipper/util", 
+    "./xslt": "web_clipper/xslt", 
+    "chrome": "chrome", 
+    "sdk/core/promise": "sdk/core/promise", 
+    "sdk/event/core": "sdk/event/core", 
+    "sdk/io/file": "sdk/io/file", 
+    "sdk/simple-prefs": "sdk/simple-prefs", 
+    "sdk/simple-storage": "sdk/simple-storage", 
+    "sdk/system": "sdk/system", 
+    "sdk/system/environment": "sdk/system/environment", 
+    "sdk/tabs": "sdk/tabs"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "web_clipper/global-ui": {
+   "docsSHA256": null, 
+   "jsSHA256": "1395d67c38dcf6b2259d9dbf881455c5b42f1678c5129bf26f955570aa86515a", 
+   "moduleName": "global-ui", 
+   "packageName": "web_clipper", 
+   "requirements": {
+    "./auth": "web_clipper/auth", 
+    "./log": "web_clipper/log", 
+    "./ui": "web_clipper/ui", 
+    "sdk/deprecated/window-utils": "sdk/deprecated/window-utils", 
+    "sdk/self": "sdk/self", 
+    "sdk/window/utils": "sdk/window/utils"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "web_clipper/log": {
+   "docsSHA256": null, 
+   "jsSHA256": "0a3ede876e8dbc9838e9a817b444902a18105edb5dc3a8141686203625ff8a9a", 
+   "moduleName": "log", 
+   "packageName": "web_clipper", 
+   "requirements": {
+    "chrome": "chrome", 
+    "sdk/console/plain-text": "sdk/console/plain-text", 
+    "sdk/preferences/service": "sdk/preferences/service", 
+    "sdk/simple-prefs": "sdk/simple-prefs", 
+    "sdk/system/environment": "sdk/system/environment"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "web_clipper/main": {
+   "docsSHA256": null, 
+   "jsSHA256": "b7e7deb747c6c4d1fb907841272bc9f100fcfd68ee668104740bf1bf9e2d69a4", 
+   "moduleName": "main", 
+   "packageName": "web_clipper", 
+   "requirements": {
+    "./async": "web_clipper/async", 
+    "./auth": "web_clipper/auth", 
+    "./boot": "web_clipper/boot", 
+    "./evernote": "web_clipper/evernote", 
+    "./log": "web_clipper/log", 
+    "./metrics": "web_clipper/metrics", 
+    "./native": "web_clipper/native", 
+    "./rpc": "web_clipper/rpc", 
+    "./ui": "web_clipper/ui", 
+    "sdk/core/promise": "sdk/core/promise", 
+    "sdk/self": "sdk/self", 
+    "sdk/simple-prefs": "sdk/simple-prefs", 
+    "sdk/util/object": "sdk/util/object"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "web_clipper/md5": {
+   "docsSHA256": null, 
+   "jsSHA256": "acdedef17ec6f9b552d4ede25bc13fa4bbaaaf763553484f05c8defb3297eb47", 
+   "moduleName": "md5", 
+   "packageName": "web_clipper", 
+   "requirements": {}, 
+   "sectionName": "lib"
+  }, 
+  "web_clipper/menu": {
+   "docsSHA256": null, 
+   "jsSHA256": "16eaf48681c3953903d5211fbc8e75ecfc46bb2da7f25dc4324bffcedd5da513", 
+   "moduleName": "menu", 
+   "packageName": "web_clipper", 
+   "requirements": {
+    "./evernote": "web_clipper/evernote", 
+    "./log": "web_clipper/log", 
+    "./tracker": "web_clipper/tracker", 
+    "./util": "web_clipper/util", 
+    "sdk/context-menu": "sdk/context-menu", 
+    "sdk/l10n": "sdk/l10n", 
+    "sdk/self": "sdk/self"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "web_clipper/metrics": {
+   "docsSHA256": null, 
+   "jsSHA256": "8c0558b83ad42a763b3daae78a8558263019b837d8f2ba3b33a2a8ac490e93b1", 
+   "moduleName": "metrics", 
+   "packageName": "web_clipper", 
+   "requirements": {
+    "./log": "web_clipper/log", 
+    "./net": "web_clipper/net", 
+    "./url": "web_clipper/url", 
+    "./util": "web_clipper/util", 
+    "sdk/core/promise": "sdk/core/promise", 
+    "sdk/self": "sdk/self"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "web_clipper/native": {
+   "docsSHA256": null, 
+   "jsSHA256": "ab953e87af1e8f1e2c2650471c1557c08090a8fbb1259ed63fc6453c89f5f602", 
+   "moduleName": "native", 
+   "packageName": "web_clipper", 
+   "requirements": {
+    "./log": "web_clipper/log", 
+    "chrome": "chrome", 
+    "sdk/core/promise": "sdk/core/promise", 
+    "sdk/net/xhr": "sdk/net/xhr", 
+    "sdk/self": "sdk/self", 
+    "sdk/system": "sdk/system"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "web_clipper/net": {
+   "docsSHA256": null, 
+   "jsSHA256": "1d45cd947af328c9034117c8fbd7504085fe41f29690bb97b967b3494a92ab5e", 
+   "moduleName": "net", 
+   "packageName": "web_clipper", 
+   "requirements": {
+    "./async": "web_clipper/async", 
+    "./log": "web_clipper/log", 
+    "./util": "web_clipper/util", 
+    "sdk/core/promise": "sdk/core/promise", 
+    "sdk/net/xhr": "sdk/net/xhr"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "web_clipper/note-util": {
+   "docsSHA256": null, 
+   "jsSHA256": "9ee6ec9c11583a840ef94cbcc2e257531855b4885a3bb3cfcc097ee9b4c5dc10", 
+   "moduleName": "note-util", 
+   "packageName": "web_clipper", 
+   "requirements": {
+    "./log": "web_clipper/log", 
+    "./md5": "web_clipper/md5", 
+    "./thrift-box": "web_clipper/thrift-box", 
+    "./util": "web_clipper/util", 
+    "sdk/addon/window": "sdk/addon/window", 
+    "sdk/core/promise": "sdk/core/promise"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "web_clipper/notebooks": {
+   "docsSHA256": null, 
+   "jsSHA256": "7829ac2f32b2830d01f77529d3c6b0c72ff6a000fba63ac599012dc791c9297e", 
+   "moduleName": "notebooks", 
+   "packageName": "web_clipper", 
+   "requirements": {
+    "./evernote": "web_clipper/evernote", 
+    "./log": "web_clipper/log", 
+    "sdk/core/promise": "sdk/core/promise", 
+    "sdk/simple-prefs": "sdk/simple-prefs"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "web_clipper/pop-box": {
+   "docsSHA256": null, 
+   "jsSHA256": "be54126b999db14d7155057721a110a4d18a57b0ff7ba45ee9dd188ea8aebe59", 
+   "moduleName": "pop-box", 
+   "packageName": "web_clipper", 
+   "requirements": {
+    "./log": "web_clipper/log", 
+    "./ui-dispatch": "web_clipper/ui-dispatch", 
+    "./util": "web_clipper/util", 
+    "sdk/core/promise": "sdk/core/promise", 
+    "sdk/self": "sdk/self"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "web_clipper/popup": {
+   "docsSHA256": null, 
+   "jsSHA256": "91fac83d97b8280ca5a713e17ec8bfad882af37434fc8cdd5d0059201ed8554d", 
+   "moduleName": "popup", 
+   "packageName": "web_clipper", 
+   "requirements": {
+    "./auth": "web_clipper/auth", 
+    "./boot": "web_clipper/boot", 
+    "./log": "web_clipper/log", 
+    "./registration": "web_clipper/registration", 
+    "./toolbar": "web_clipper/toolbar", 
+    "./ui-dispatch": "web_clipper/ui-dispatch", 
+    "./url": "web_clipper/url", 
+    "./widget": "web_clipper/widget", 
+    "@l10n/data": "@l10n/data", 
+    "sdk/event/core": "sdk/event/core", 
+    "sdk/panel": "sdk/panel", 
+    "sdk/self": "sdk/self", 
+    "sdk/simple-prefs": "sdk/simple-prefs", 
+    "sdk/system/environment": "sdk/system/environment", 
+    "sdk/tabs": "sdk/tabs"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "web_clipper/post-clip": {
+   "docsSHA256": null, 
+   "jsSHA256": "a2e7e821f8789463726367bf8bdbc879ccc1f94af6fb1313b06046572fa755ea", 
+   "moduleName": "post-clip", 
+   "packageName": "web_clipper", 
+   "requirements": {
+    "./auth": "web_clipper/auth", 
+    "./evernote": "web_clipper/evernote", 
+    "./log": "web_clipper/log", 
+    "./net": "web_clipper/net", 
+    "./tracker": "web_clipper/tracker", 
+    "./ui-dispatch": "web_clipper/ui-dispatch", 
+    "./util": "web_clipper/util", 
+    "@l10n/data": "@l10n/data", 
+    "chrome": "chrome", 
+    "sdk/addon/window": "sdk/addon/window", 
+    "sdk/content/worker": "sdk/content/worker", 
+    "sdk/core/promise": "sdk/core/promise", 
+    "sdk/event/core": "sdk/event/core", 
+    "sdk/frame/utils": "sdk/frame/utils", 
+    "sdk/self": "sdk/self", 
+    "sdk/simple-prefs": "sdk/simple-prefs", 
+    "sdk/timers": "sdk/timers"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "web_clipper/rect-selector": {
+   "docsSHA256": null, 
+   "jsSHA256": "b7df34f9cc39f9e3b3c3ab38fb27a81f141a7b87ab3e17c4e57ec36bf5f6a63f", 
+   "moduleName": "rect-selector", 
+   "packageName": "web_clipper", 
+   "requirements": {
+    "./log": "web_clipper/log", 
+    "./tracker": "web_clipper/tracker", 
+    "./util": "web_clipper/util", 
+    "sdk/core/promise": "sdk/core/promise", 
+    "sdk/event/core": "sdk/event/core", 
+    "sdk/l10n": "sdk/l10n", 
+    "sdk/self": "sdk/self"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "web_clipper/registration": {
+   "docsSHA256": null, 
+   "jsSHA256": "c9f78a651bff536c411d23a669e65ee829cb3f532c47379d059e9b415c4ed5e2", 
+   "moduleName": "registration", 
+   "packageName": "web_clipper", 
+   "requirements": {
+    "./log": "web_clipper/log", 
+    "./metrics": "web_clipper/metrics", 
+    "./net": "web_clipper/net", 
+    "./url": "web_clipper/url", 
+    "./util": "web_clipper/util", 
+    "sdk/simple-prefs": "sdk/simple-prefs"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "web_clipper/rpc": {
+   "docsSHA256": null, 
+   "jsSHA256": "22e60f51164b2c804231a4f9e54d047e678fbb0866b83e0ba711abe81f8a6410", 
+   "moduleName": "rpc", 
+   "packageName": "web_clipper", 
+   "requirements": {
+    "./async": "web_clipper/async", 
+    "./log": "web_clipper/log", 
+    "./net": "web_clipper/net", 
+    "./util": "web_clipper/util", 
+    "sdk/core/promise": "sdk/core/promise", 
+    "sdk/net/xhr": "sdk/net/xhr"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "web_clipper/screenshot-selector": {
+   "docsSHA256": null, 
+   "jsSHA256": "a5d5f8c519f6974f385b7caa06f281126a4201ae23af23fb3cd7688a3e8c6965", 
+   "moduleName": "screenshot-selector", 
+   "packageName": "web_clipper", 
+   "requirements": {
+    "./log": "web_clipper/log", 
+    "./note-util": "web_clipper/note-util", 
+    "./tracker": "web_clipper/tracker", 
+    "./util": "web_clipper/util", 
+    "./xslt": "web_clipper/xslt", 
+    "sdk/core/promise": "sdk/core/promise", 
+    "sdk/event/core": "sdk/event/core", 
+    "sdk/l10n": "sdk/l10n", 
+    "sdk/self": "sdk/self"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "web_clipper/selection-clipper": {
+   "docsSHA256": null, 
+   "jsSHA256": "ddb9a7bb85b3b5946afa4d5aabd86ef4d2e439a5de5936d06289ab871bb6c76b", 
+   "moduleName": "selection-clipper", 
+   "packageName": "web_clipper", 
+   "requirements": {
+    "./evernote": "web_clipper/evernote", 
+    "./log": "web_clipper/log", 
+    "./tracker": "web_clipper/tracker", 
+    "./util": "web_clipper/util", 
+    "./xslt": "web_clipper/xslt", 
+    "sdk/event/core": "sdk/event/core"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "web_clipper/session-tracker": {
+   "docsSHA256": null, 
+   "jsSHA256": "6d7e26f85582d3d54a29ed2bf838c0e425cf4027d6269ff7531ca6a3c114a91d", 
+   "moduleName": "session-tracker", 
+   "packageName": "web_clipper", 
+   "requirements": {
+    "./auth": "web_clipper/auth", 
+    "./evernote": "web_clipper/evernote", 
+    "./log": "web_clipper/log", 
+    "sdk/simple-prefs": "sdk/simple-prefs", 
+    "sdk/timers": "sdk/timers"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "web_clipper/sim-search": {
+   "docsSHA256": null, 
+   "jsSHA256": "bf9d6f89a6ff22391b945ddf2c35ab749fb1a1eb3695f262875d8f3023a7feab", 
+   "moduleName": "sim-search", 
+   "packageName": "web_clipper", 
+   "requirements": {
+    "./auth": "web_clipper/auth", 
+    "./boot": "web_clipper/boot", 
+    "./evernote": "web_clipper/evernote", 
+    "./log": "web_clipper/log", 
+    "./net": "web_clipper/net", 
+    "./popup": "web_clipper/popup", 
+    "./tracker": "web_clipper/tracker", 
+    "./ui-dispatch": "web_clipper/ui-dispatch", 
+    "./util": "web_clipper/util", 
+    "@l10n/data": "@l10n/data", 
+    "sdk/content/worker": "sdk/content/worker", 
+    "sdk/core/promise": "sdk/core/promise", 
+    "sdk/event/core": "sdk/event/core", 
+    "sdk/self": "sdk/self", 
+    "sdk/simple-prefs": "sdk/simple-prefs", 
+    "sdk/timers": "sdk/timers"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "web_clipper/skitch": {
+   "docsSHA256": null, 
+   "jsSHA256": "041b1b3d88315fde333d731aa791d4fa594a9b13770ca182ebc67e019d539ea0", 
+   "moduleName": "skitch", 
+   "packageName": "web_clipper", 
+   "requirements": {
+    "./log": "web_clipper/log", 
+    "./tracker": "web_clipper/tracker", 
+    "./ui-dispatch": "web_clipper/ui-dispatch", 
+    "./util": "web_clipper/util", 
+    "@l10n/data": "@l10n/data", 
+    "sdk/core/promise": "sdk/core/promise", 
+    "sdk/event/core": "sdk/event/core", 
+    "sdk/l10n": "sdk/l10n", 
+    "sdk/loader/sandbox": "sdk/loader/sandbox", 
+    "sdk/net/xhr": "sdk/net/xhr", 
+    "sdk/self": "sdk/self"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "web_clipper/sub-panel": {
+   "docsSHA256": null, 
+   "jsSHA256": "cf4676407a199098d32a4e997999e34ce8fbeb28ec170cf0f4c425c05e21a5f6", 
+   "moduleName": "sub-panel", 
+   "packageName": "web_clipper", 
+   "requirements": {
+    "./auth": "web_clipper/auth", 
+    "./log": "web_clipper/log", 
+    "./tracker": "web_clipper/tracker", 
+    "./ui-dispatch": "web_clipper/ui-dispatch", 
+    "./url": "web_clipper/url", 
+    "./util": "web_clipper/util", 
+    "@l10n/data": "@l10n/data", 
+    "sdk/content/worker": "sdk/content/worker", 
+    "sdk/event/core": "sdk/event/core", 
+    "sdk/self": "sdk/self", 
+    "sdk/tabs": "sdk/tabs", 
+    "sdk/tabs/utils": "sdk/tabs/utils"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "web_clipper/thrift-box": {
+   "docsSHA256": null, 
+   "jsSHA256": "d345d8353ff70983fda402241ee291e0dfd8458c9f7b4599c3762b56a343a136", 
+   "moduleName": "thrift-box", 
+   "packageName": "web_clipper", 
+   "requirements": {
+    "./async": "web_clipper/async", 
+    "./log": "web_clipper/log", 
+    "sdk/core/promise": "sdk/core/promise", 
+    "sdk/loader/sandbox": "sdk/loader/sandbox", 
+    "sdk/net/xhr": "sdk/net/xhr", 
+    "sdk/self": "sdk/self"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "web_clipper/toolbar": {
+   "docsSHA256": null, 
+   "jsSHA256": "bc5ac01bed0217910f6c7c99ed423dbb1c4a7c61f854a63eb3b0d34769ae0cc5", 
+   "moduleName": "toolbar", 
+   "packageName": "web_clipper", 
+   "requirements": {
+    "./auth": "web_clipper/auth", 
+    "./evernote": "web_clipper/evernote", 
+    "./log": "web_clipper/log", 
+    "./notebooks": "web_clipper/notebooks", 
+    "./pop-box": "web_clipper/pop-box", 
+    "./sub-panel": "web_clipper/sub-panel", 
+    "./tracker": "web_clipper/tracker", 
+    "./ui": "web_clipper/ui", 
+    "./ui-dispatch": "web_clipper/ui-dispatch", 
+    "./util": "web_clipper/util", 
+    "./widget": "web_clipper/widget", 
+    "@l10n/data": "@l10n/data", 
+    "sdk/content/worker": "sdk/content/worker", 
+    "sdk/core/promise": "sdk/core/promise", 
+    "sdk/event/core": "sdk/event/core", 
+    "sdk/frame/utils": "sdk/frame/utils", 
+    "sdk/self": "sdk/self", 
+    "sdk/simple-prefs": "sdk/simple-prefs", 
+    "sdk/tabs": "sdk/tabs"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "web_clipper/tracker": {
+   "docsSHA256": null, 
+   "jsSHA256": "569e452d6d52ac73b0d9820f3b1b9290a68732a6d373d6376cc453b962ccdd0b", 
+   "moduleName": "tracker", 
+   "packageName": "web_clipper", 
+   "requirements": {
+    "./auth": "web_clipper/auth", 
+    "./log": "web_clipper/log", 
+    "./util": "web_clipper/util", 
+    "sdk/deprecated/window-utils": "sdk/deprecated/window-utils", 
+    "sdk/event/core": "sdk/event/core", 
+    "sdk/system/events": "sdk/system/events", 
+    "sdk/tabs": "sdk/tabs", 
+    "sdk/tabs/utils": "sdk/tabs/utils", 
+    "sdk/window/utils": "sdk/window/utils"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "web_clipper/ui": {
+   "docsSHA256": null, 
+   "jsSHA256": "0c4b0727908b843f891b2242a317b36e237e21ab3c5f55718cda18ac97d3cdc7", 
+   "moduleName": "ui", 
+   "packageName": "web_clipper", 
+   "requirements": {
+    "./article": "web_clipper/article", 
+    "./auth": "web_clipper/auth", 
+    "./boot": "web_clipper/boot", 
+    "./evernote": "web_clipper/evernote", 
+    "./global-ui": "web_clipper/global-ui", 
+    "./log": "web_clipper/log", 
+    "./menu": "web_clipper/menu", 
+    "./native": "web_clipper/native", 
+    "./popup": "web_clipper/popup", 
+    "./registration": "web_clipper/registration", 
+    "./session-tracker": "web_clipper/session-tracker", 
+    "./toolbar": "web_clipper/toolbar", 
+    "./tracker": "web_clipper/tracker", 
+    "./ui-dispatch": "web_clipper/ui-dispatch", 
+    "./url": "web_clipper/url", 
+    "./util": "web_clipper/util", 
+    "./widget": "web_clipper/widget", 
+    "./xslt": "web_clipper/xslt", 
+    "sdk/clipboard": "sdk/clipboard", 
+    "sdk/core/promise": "sdk/core/promise", 
+    "sdk/event/core": "sdk/event/core", 
+    "sdk/hotkeys": "sdk/hotkeys", 
+    "sdk/l10n": "sdk/l10n", 
+    "sdk/self": "sdk/self", 
+    "sdk/simple-prefs": "sdk/simple-prefs", 
+    "sdk/system/environment": "sdk/system/environment", 
+    "sdk/tabs": "sdk/tabs", 
+    "sdk/window/utils": "sdk/window/utils"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "web_clipper/ui-dispatch": {
+   "docsSHA256": null, 
+   "jsSHA256": "5d9ba0894d885159989292318b5e65cee0b0341e5e14bd21162d787fee8fac51", 
+   "moduleName": "ui-dispatch", 
+   "packageName": "web_clipper", 
+   "requirements": {
+    "./log": "web_clipper/log", 
+    "./util": "web_clipper/util", 
+    "sdk/core/promise": "sdk/core/promise", 
+    "sdk/event/core": "sdk/event/core"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "web_clipper/url": {
+   "docsSHA256": null, 
+   "jsSHA256": "20e321449ac4ca4ff86dfcb50ce01b39af1e07bac8693ec7ef5c9aeff7f839d5", 
+   "moduleName": "url", 
+   "packageName": "web_clipper", 
+   "requirements": {
+    "./boot": "web_clipper/boot", 
+    "./util": "web_clipper/util", 
+    "sdk/simple-prefs": "sdk/simple-prefs"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "web_clipper/util": {
+   "docsSHA256": null, 
+   "jsSHA256": "d72db65a9a734d880c652269137b41be777d2a99229fdc6a2497a3ad2c4fb98c", 
+   "moduleName": "util", 
+   "packageName": "web_clipper", 
+   "requirements": {
+    "./log": "web_clipper/log", 
+    "chrome": "chrome", 
+    "sdk/addon/window": "sdk/addon/window", 
+    "sdk/content/worker": "sdk/content/worker", 
+    "sdk/event/core": "sdk/event/core", 
+    "sdk/frame/utils": "sdk/frame/utils", 
+    "sdk/net/url": "sdk/net/url", 
+    "sdk/simple-storage": "sdk/simple-storage", 
+    "sdk/system": "sdk/system", 
+    "sdk/tabs": "sdk/tabs", 
+    "sdk/tabs/utils": "sdk/tabs/utils", 
+    "sdk/window/utils": "sdk/window/utils"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "web_clipper/widget": {
+   "docsSHA256": null, 
+   "jsSHA256": "311e164c7d07934532e2df64e840d11521b9d070bac7f7fbcc186b1383a99964", 
+   "moduleName": "widget", 
+   "packageName": "web_clipper", 
+   "requirements": {
+    "./auth": "web_clipper/auth", 
+    "./evernote": "web_clipper/evernote", 
+    "./log": "web_clipper/log", 
+    "./popup": "web_clipper/popup", 
+    "./ui-dispatch": "web_clipper/ui-dispatch", 
+    "sdk/event/core": "sdk/event/core", 
+    "sdk/l10n": "sdk/l10n", 
+    "sdk/self": "sdk/self", 
+    "sdk/simple-prefs": "sdk/simple-prefs", 
+    "sdk/system/environment": "sdk/system/environment", 
+    "sdk/ui/button/action": "sdk/ui/button/action", 
+    "toolbarwidget": "toolbarwidget/toolbarwidget"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "web_clipper/xslt": {
+   "docsSHA256": null, 
+   "jsSHA256": "e2c3c63960bb0fe1a4175e8ac437e49d07a85b892fb3f0464d3c847765afe055", 
+   "moduleName": "xslt", 
+   "packageName": "web_clipper", 
+   "requirements": {
+    "./log": "web_clipper/log", 
+    "./md5": "web_clipper/md5", 
+    "./net": "web_clipper/net", 
+    "./note-util": "web_clipper/note-util", 
+    "./thrift-box": "web_clipper/thrift-box", 
+    "./util": "web_clipper/util", 
+    "sdk/addon/window": "sdk/addon/window", 
+    "sdk/core/promise": "sdk/core/promise", 
+    "sdk/l10n": "sdk/l10n", 
+    "sdk/net/url": "sdk/net/url", 
+    "sdk/self": "sdk/self", 
+    "sdk/window/utils": "sdk/window/utils"
+   }, 
+   "sectionName": "lib"
+  }
+ }, 
+ "metadata": {
+  "addon-sdk": {
+   "description": "Add-on development made easy.", 
+   "keywords": [
+    "javascript", 
+    "engine", 
+    "addon", 
+    "extension", 
+    "xulrunner", 
+    "firefox", 
+    "browser"
+   ], 
+   "license": "MPL 2.0", 
+   "name": "addon-sdk"
+  }, 
+  "toolbarwidget": {
+   "author": "Rob Wu (https://robwu.nl/) <gwnRob@gmail.com>", 
+   "description": "Create widgets and place it on a toolbar using Jetpack", 
+   "keywords": [
+    "toolbar", 
+    "toolbarwidget", 
+    "widget", 
+    "ui"
+   ], 
+   "license": "MIT", 
+   "name": "toolbarwidget", 
+   "version": "1.3.1"
+  }, 
+  "web_clipper": {
+   "author": "Evernote", 
+   "description": "The Evernote Web Clipper is the easiest way to save, mark up and share anything you see online. From clipping pages to taking and annotating screenshots, the Evernote Web Clipper lets you capture everything, then access it from anywhere.", 
+   "license": "Evernote Terms of Service", 
+   "main": "main", 
+   "name": "web_clipper", 
+   "version": "6.0.15"
+  }
+ }, 
+ "name": "web_clipper", 
+ "parseable": false, 
+ "preferences": [
+  {
+   "description": "Prevents WebClipper from loading a locally stored profile", 
+   "hidden": true, 
+   "name": "localStorageDisabled", 
+   "title": "WebClipper local profile is disabled", 
+   "type": "bool", 
+   "value": false
+  }, 
+  {
+   "description": "Stores all debug messages in a memory buffer. This buffer can be accessed with Alt/Opt-2 which copies the buffer into the clipboard", 
+   "hidden": true, 
+   "name": "storeMemoryLog", 
+   "title": "Record logged messages into a memory buffer", 
+   "type": "bool", 
+   "value": false
+  }, 
+  {
+   "description": "Enables encryption when connecting to Evernote cloud", 
+   "hidden": true, 
+   "name": "useHttps", 
+   "title": "Use HTTPS to connect to Evernote servers", 
+   "type": "bool", 
+   "value": true
+  }, 
+  {
+   "description": "Bootstrap server type", 
+   "hidden": true, 
+   "name": "configType", 
+   "options": [
+    {
+     "label": "Production", 
+     "value": "prod"
+    }, 
+    {
+     "label": "Staging", 
+     "value": "staging"
+    }
+   ], 
+   "title": "Boot config", 
+   "type": "menulist", 
+   "value": "prod"
+  }, 
+  {
+   "description": "Overrides your location settings", 
+   "hidden": true, 
+   "name": "preferredLocation", 
+   "options": [
+    {
+     "label": "United States", 
+     "value": "us"
+    }, 
+    {
+     "label": "China", 
+     "value": "zh"
+    }, 
+    {
+     "label": "Select automatically", 
+     "value": "auto"
+    }
+   ], 
+   "title": "Sets your preferred location", 
+   "type": "menulist", 
+   "value": "auto"
+  }, 
+  {
+   "description": "Evernote server to connect to", 
+   "hidden": true, 
+   "name": "server", 
+   "options": [
+    {
+     "label": "Determine automatically", 
+     "value": "auto"
+    }, 
+    {
+     "label": "www.evernote.com (US production)", 
+     "value": "us-prod"
+    }, 
+    {
+     "label": "app.yinxiang.com (China production)", 
+     "value": "cn-prod"
+    }, 
+    {
+     "label": "stage.evernote.com (US staging)", 
+     "value": "us-stage"
+    }, 
+    {
+     "label": "stage-china.evernote.com (China staging)", 
+     "value": "cn-stage"
+    }
+   ], 
+   "title": "Evernote server", 
+   "type": "menulist", 
+   "value": "auto"
+  }, 
+  {
+   "description": "Enable global keyboard shortcuts", 
+   "name": "globalShortcuts", 
+   "title": "Use keyboard shortcuts", 
+   "type": "bool", 
+   "value": false
+  }, 
+  {
+   "name": "clipDestination", 
+   "options": [
+    {
+     "label": "Cloud", 
+     "value": "cloud"
+    }, 
+    {
+     "label": "Native client", 
+     "value": "native"
+    }, 
+    {
+     "label": "File", 
+     "value": "file"
+    }
+   ], 
+   "title": "Save clips to", 
+   "type": "menulist", 
+   "value": "cloud"
+  }, 
+  {
+   "description": "Action after clipping an article", 
+   "name": "afterClip", 
+   "options": [
+    {
+     "label": "Show successful clip dialog", 
+     "value": "full"
+    }, 
+    {
+     "label": "Show successful clip dialog without related notes", 
+     "value": "shrink"
+    }, 
+    {
+     "label": "Automatically close clipper", 
+     "value": "close"
+    }
+   ], 
+   "title": "After clip", 
+   "type": "menulist", 
+   "value": "full"
+  }, 
+  {
+   "description": "Allow Smart Filing into Business Notebooks", 
+   "name": "smartFilingBiz", 
+   "title": "Business Smart filing", 
+   "type": "bool", 
+   "value": true
+  }, 
+  {
+   "description": "Show Related Results when you search the web", 
+   "name": "simSearch", 
+   "title": "Related results", 
+   "type": "bool", 
+   "value": true
+  }, 
+  {
+   "description": "Save to notebook with GUID", 
+   "name": "defaultNotebookGuid", 
+   "title": "Default notebook GUID", 
+   "type": "string", 
+   "value": ""
+  }, 
+  {
+   "description": "Default starting notebook", 
+   "name": "notebookSelection", 
+   "options": [
+    {
+     "label": "Last used", 
+     "value": "last"
+    }, 
+    {
+     "label": "Always add to the default notebook", 
+     "value": "fixed"
+    }, 
+    {
+     "label": "Use smart filing", 
+     "value": "smart"
+    }
+   ], 
+   "title": "Select notebook", 
+   "type": "menulist", 
+   "value": "smart"
+  }, 
+  {
+   "description": "Add smart tags to clipped notes", 
+   "name": "smartTags", 
+   "title": "Use smart tags", 
+   "type": "bool", 
+   "value": true
+  }, 
+  {
+   "description": "Add default tags to clipped notes", 
+   "name": "defaultTags", 
+   "title": "Use default tags", 
+   "type": "bool", 
+   "value": true
+  }, 
+  {
+   "description": "Default tags to add to clipped notes", 
+   "name": "defaultTagString", 
+   "title": "Default tag string", 
+   "type": "string", 
+   "value": ""
+  }, 
+  {
+   "description": "Clip action to select by default", 
+   "name": "defaultClipAction", 
+   "options": [
+    {
+     "label": "Last used", 
+     "value": "last"
+    }, 
+    {
+     "label": "Article", 
+     "value": "article"
+    }, 
+    {
+     "label": "Simplified article", 
+     "value": "clearly"
+    }, 
+    {
+     "label": "Full page", 
+     "value": "full"
+    }, 
+    {
+     "label": "Bookmark", 
+     "value": "url"
+    }
+   ], 
+   "title": "Default clip action", 
+   "type": "menulist", 
+   "value": "last"
+  }
+ ], 
+ "preferencesBranch": "{E0B8C461-F8FB-49b4-8373-FE32E9252800}", 
+ "sdkVersion": "1.17", 
+ "staticArgs": {}, 
+ "verbose": false
+}

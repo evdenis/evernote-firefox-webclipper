@@ -1,0 +1,262 @@
+@import url("fonts.css");
+html, body, div, header, footer, button, span, h1, h2, h3, h4, li, ul, hr,
+p, textarea, time, input, tr, td, article, section, img, a {
+  margin: 0;
+  padding: 0;
+  border: none;
+  -moz-box-sizing: border-box;
+  background-repeat: no-repeat;
+  -moz-osx-font-smoothing: grayscale;
+  box-shadow: none;
+  outline: none;
+  color: inherit;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+ul, li {
+  list-style: none;
+}
+
+html {
+  overflow: hidden;
+}
+
+body {
+  font-family: "Gotham Medium", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  color: #000;
+  min-width: 452px;
+  width: 100%;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+#heading {
+  background-image: url(images/sim-webclipper.png);
+  background-size: 142px 36px;
+  background-position: left top;
+  width: 464px;
+  height: 52px;
+  padding-bottom: 17px;
+}
+
+.china #heading {
+  background-image: url(images/sim-YXBJ.png);
+  background-size: 87px 45px;
+  height: 61px;
+}
+
+#close {
+  background-image: url(images/sim-close.png);
+  position: absolute;
+  top: 2px;
+  right: 10px;
+  width: 12px;
+  height: 12px;
+  background-size: 12px 12px;
+  cursor: pointer;
+}
+
+#close_menu {
+  position: absolute;
+  top: 19px;
+  right: 2px;
+  width: 146px;
+  height: 58px;
+  border: 1px solid #c0c7cc;
+  background-color: #ffffff;
+  box-shadow: 0px 3px 3px 0px rgba(25,31,36,0.3);
+  padding: 5px;
+  color: #646c6e;
+  border-radius: 2px;
+  text-shadow: none;
+}
+#close_menu {
+  display: none;
+}
+
+#close_menu li {
+  height: 22px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  border: 1px solid transparent;
+  line-height: 22px;
+  cursor: pointer;
+  padding: 0px 5px;
+}
+
+#close_menu li:hover {
+  border: 1px solid #b7c3cb;
+  border-radius: 2px;
+  background-color: #e7edf1;
+}
+
+#signedout {
+  display: none;
+  cursor: pointer;
+}
+
+#signedout a {
+  color: inherit;
+  text-decoration: none;
+}
+.logged-off #signedout {
+  display: block;
+}
+
+.logged-off #business, .logged-off #personal {
+  display: none;
+}
+
+#personal {
+  margin-bottom: 20px;
+}
+
+#personal.empty {
+  display: none;
+}
+
+#business.empty {
+  display: none;
+}
+
+.loading {
+  background-image: url('images/sim-loading.gif');
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 30px;
+  min-width: 30px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.vcenter {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.articles {
+  margin-top: 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  vertical-align: top;
+}
+
+
+article {
+  width: 136px;
+  margin-right: 10px;
+  display: inline-block;
+  font-size: 13px;
+  vertical-align: top;
+  line-height: 16px;
+}
+
+article>div {
+  width: 100%;
+  height: 182px;
+  border: 1px solid #dddddd;
+  border-radius: 1px;
+  padding: 10px;
+  overflow: hidden;
+  white-space: normal;
+  cursor: pointer;
+}
+
+article h1 {
+  font-family: "Gotham Bold", Helvetica, sans-serif;
+  font-weight: normal;
+  width: 100%;
+  max-height: 32px;
+  line-height: 16px;
+  overflow: hidden;
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+
+article time {
+  color: #518c94;
+  font-size: 12px;
+  font-style: italic;
+  height: 16px;
+}
+
+article p {
+  line-height: 16px;
+  color: #878080;
+  max-height: 48px;
+  overflow: hidden;
+  white-space: normal;
+  font-size: 12px;
+}
+
+article .imgcontainer {
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  display: block;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+}
+
+article .imgcontainer img {
+  max-width: 100%;
+  max-height: 60px;
+  display: inline-block;
+  margin: auto;
+}
+
+article footer {
+  margin-top: 13px;
+  max-width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #b6b6b6;
+}
+article footer.business {
+  padding-left: 18px;
+  background-image: url(images/business.png);
+  background-size: 11px 9px;
+  background-position: 0px 4px;
+}
+
+article footer.linked {
+  padding-left: 18px;
+  background-image: url(images/linked.png);
+  background-size: 16px 7px;
+  background-position: 0px 6px;
+}
+
+@media (min--moz-device-pixel-ratio: 2),    /* Prior to Firefox 16 */
+(min-resolution: 2dppx),             /* The standard way */
+(min-resolution: 192dpi) {
+  .loading {
+    background-image: url('images/sim-loading@2x.gif');
+  }
+  article footer.business {
+    background-image: url('images/business@2x.png');
+  }
+  article footer.linked {
+    background-image: url('images/linked@2x.png');
+  }
+  #close {
+    background-image: url('images/sim-close@2x.png');
+  }
+  #heading {
+    background-image: url('images/sim-webclipper@2x.png');
+  }
+  .china #heading {
+    background-image: url('images/sim-YXBJ@2x.png');
+  }
+}

@@ -1,0 +1,310 @@
+@import url(fonts.css);
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+html, body, div, footer, button, span, h1, li, ul, hr, textarea, input, tr, td {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-repeat: no-repeat;
+  box-shadow: none;
+  outline: none;
+  color: inherit;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+body {
+  width: 610px;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: normal;
+  font-family: "GothamMedium", Arial, Helvetica, sans-serif;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6);
+  background-color: rgba(128, 128, 128, 0.3);
+  position: relative;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+header {
+  background-color: #3c454c;
+  padding: 16px 24px 14px 24px;
+}
+
+a {
+  color: #209bc9;
+  text-decoration: none;
+
+}
+
+#links a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.logo {
+  background-size: 172px 36px;
+  height: 36px;
+  background-image: url('images/logo_registration.png');
+  background-position: 0px 0px, 60px 16px;
+  margin-bottom: 12px;
+}
+
+.info {
+  margin-bottom: 24px;
+}
+
+.version {
+  margin-bottom: 14px;
+}
+
+.logged-in {
+  display: block;
+  white-space: nowrap;
+}
+
+.logged-out {
+  display: none;
+}
+
+#username {
+  margin: 0 1em;
+  max-width:350px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.tab_selection {
+  white-space: nowrap;
+}
+
+.tab_selection li {
+  white-space: nowrap;
+  display: inline-block;
+  margin-right: 28px;
+  color: #cccccc;
+}
+
+ul.tab_selection input[type='radio'] {
+  display: none;
+}
+
+ul.tab_selection input[type='radio']:checked ~ label {
+  color: #ffffff;
+
+}
+
+.pages {
+  background-color: #2f373d;
+  border-top: 1px solid #272d33;
+  border-bottom: 1px solid #272d33;
+  height: 400px;
+  max-height: 400px;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  font-size: 11px;
+  color: #c2cfd7;
+}
+
+.pages article {
+  display: inline-block;
+  width: 610px;
+  max-width: 610px;
+  height: 400px;
+  max-height: 400px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  white-space: normal;
+  vertical-align: top;
+  padding: 14px 24px;
+  margin: 0;
+  -moz-box-sizing: border-box;
+}
+
+.inner {
+  transition: margin-left 0.2s;
+  -moz-transition: margin-left 0.2s;
+  margin-left: 0;
+  width: 1800px;
+  max-width: 1800px;
+  white-space: nowrap;
+}
+
+div[selection=options] .inner {
+  margin-left: 0;
+}
+
+div[selection=keyboard] .inner {
+  margin-left: -100%;
+}
+
+div[selection=legal] .inner {
+  margin-left: -200%;
+}
+
+#page_options section {
+  margin-left: 191px;
+  padding-bottom: 8px;
+}
+
+#page_options h1 {
+  margin-left: -191px;
+  float: left;
+  font-weight: normal;
+  font-size: 12px;
+  margin-top: 6px;
+}
+
+#page_options ul {
+}
+
+#page_options li {
+  min-height: 26px;
+  line-height: 26px;
+  vertical-align: top;
+}
+
+#page_options section div {
+  margin-left: 30px;
+  display: inline-block;
+  width: 300px;
+}
+
+#page_options section li > input {
+  margin-top: 6px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#page_options li div select, #page_options li div input {
+  float: right;
+}
+
+#page_keyboard input[type=text] {
+  background-color: #eaf0f5;
+  color: #3a4045;
+  border-radius: 2px;
+  border: 1px solid #232a30;
+  width: 154px;
+  padding: 5px;
+  font-family: "GothamMedium", Helvetica, sans-serif;
+}
+
+#page_keyboard input[type=text][enabled] {
+  color: #000000 !important;
+  background-color: #ffffff !important;
+}
+
+#page_keyboard label {
+  width: 215px;
+  display: inline-block;
+}
+
+#page_keyboard li {
+  padding-bottom: 12px;
+}
+
+#page_keyboard section {
+  padding-bottom: 8px;
+}
+
+#page_legal .copyright {
+  color: #cccccc;
+  font-style: italic;
+}
+
+footer {
+  position: relative;
+  background-color: #3c454c;
+  padding: 16px 24px;
+}
+
+footer button {
+  display: inline-block;
+  padding: 4px 14px;
+  background-color: #26b064;
+  box-shadow: inset 0px 1px #33cc78;
+  border-radius: 2px;
+  font-size: 14px;
+  font-family: "GothamMedium", sans-serif;
+  font-weight: normal;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+#done {
+  position: absolute;
+  right: 24px;
+  bottom: 16px;
+}
+
+#page_options select {
+  font-family: "GothamMedium", Helvetica, sans-serif;
+  width: 154px;
+  margin-top: 6px;
+}
+
+#page_options input[type=text] {
+  background-color: #eaf0f5;
+  color: #3a4045;
+  border-radius: 2px;
+  border: 1px solid #232a30;
+  width: 154px;
+  height: 24px;
+  padding: 5px;
+  font-family: "GothamMedium", Helvetica, sans-serif;
+}
+
+#page_options input[type=text]:disabled {
+  color: #999999;
+}
+
+#page_options input[type=text]::-moz-placeholder {
+  color: #828d97;
+}
+
+#page_options input[type=text]::-moz-selection {
+  background-color: #ccccff;
+  color: black;
+}
+
+#page_options select {
+  color: #3a4045;
+}
+
+section.dbg {
+  display: none;
+}
+
+body.dbg section.dbg {
+  color: #88cc88;
+  display: block;
+}
+
+@media (min--moz-device-pixel-ratio: 2),    /* Prior to Firefox 16 */
+(min-resolution: 2dppx),             /* The standard way */
+(min-resolution: 192dpi) {
+  .logo {
+    background-image: url('images/logo_registration@2x.png');
+  }
+}

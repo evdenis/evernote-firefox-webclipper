@@ -1,0 +1,98 @@
+@import url("fonts.css");
+
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+html, body, div, article, span, a, img, address, h1 {
+  margin: 0;
+  padding: 0;
+  border: none;
+  -moz-box-sizing: border-box;
+  background-repeat:no-repeat;
+  box-shadow:none;
+  outline:none;
+  color: inherit;
+}
+
+body {
+  width: 400px;
+  padding: 10px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+h1 {
+  font-family: "Gotham Bold", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #0c0c0c;
+}
+
+.info {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+#thumbnail_container {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+#thumbnail {
+  max-width: 150px;
+  max-height: 150px;
+  vertical-align: top;
+  display: inline-block;
+}
+
+
+.page_info {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 10px;
+  max-width: 210px;
+  overflow: visible;
+  text-overflow: ellipsis;
+}
+
+.page_info address {
+  max-width: 264px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 5px;
+}
+
+.page_info address img {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.page_info address a {
+  font-style: normal;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+#snippet {
+  font-size: 12px;
+  line-height: 17px;
+  white-space: normal;
+  text-overflow: ellipsis ellipsis;
+  max-height: 170px;
+  overflow: hidden;
+}

@@ -1,0 +1,99 @@
+body, html, ul, input, li, div {
+  margin:0;
+  padding: 0;
+  border: 0;
+  background-repeat: no-repeat;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+}
+
+ul,li {
+  list-style-type: none;
+}
+
+html, body {
+  overflow: hidden;
+  height: 35px;
+  white-space: nowrap;
+}
+
+body {
+  width: 175px;
+  height: 35px;
+  background-color: #bbcbd5;
+  border-radius: 2px;
+  color: #2f373d;
+  background-clip: content-box;
+}
+
+.row {
+  height: 55px;
+  white-space: nowrap;
+}
+
+div.tool {
+  width: 35px;
+  height: 35px;
+  margin: 0px;
+  background-position: center center;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+
+div.tool:hover {
+  background-color: #4ca4e6;
+}
+
+div.tool[selection=line] {
+  background-image:  url(skitch/images/line_icon.png);
+  background-size: 24px 23px;
+}
+
+div.tool[selection=arrow]{
+  background-image:  url(skitch/images/arrow_color_icon.png);
+  background-size: 21px 20px;
+}
+
+div.tool[selection=rectangle] {
+  background-image:  url(skitch/images/rectangle_icon.png);
+  background-size: 25px 20px;
+}
+
+div.tool[selection=roundedRectangle] {
+  background-image:  url(skitch/images/rectangle_round_icon.png);
+  background-size: 25px 20px;
+}
+
+div.tool[selection=ellipse] {
+  background-image:  url(skitch/images/circle_icon.png);
+  background-size: 23px 20px;
+}
+
+
+@media (min--moz-device-pixel-ratio: 2),    /* Prior to Firefox 16 */
+(min-resolution: 2dppx),             /* The standard way */
+(min-resolution: 192dpi) {
+
+
+  div.tool[selection=line] {
+    background-image:  url(skitch/images/line_icon@2x.png);
+  }
+
+  div.tool[selection=arrow]{
+    background-image:  url(skitch/images/arrow_color_icon@2x.png);
+  }
+
+  div.tool[selection=rectangle] {
+    background-image:  url(skitch/images/rectangle_icon@2x.png);
+  }
+
+  div.tool[selection=roundedRectangle] {
+    background-image:  url(skitch/images/rectangle_round_icon@2x.png);
+  }
+
+  div.tool[selection=ellipse] {
+    background-image:  url(skitch/images/circle_icon@2x.png);
+  }
+}

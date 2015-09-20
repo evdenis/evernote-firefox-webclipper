@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html class="">
+<head>
+  <meta charset="utf-8">
+  <link type="text/css" rel="stylesheet" href="popup.css"/>
+<body class="page_login">
+<div id="page_signin">
+  <div class="inner">
+    <div id="signin_close" class="close clickable"></div>
+    <div class="logo clickable"></div>
+    <div id="switcher" class="clickable">
+      <span class="china">&#x5207;&#x6362;&#x5230;Evernote International</span>
+      <span class="intl">&#x5207;&#x6362;&#x5230;&#x5370;&#x8C61;&#x7B14;&#x8BB0;</span>
+    </div>
+    <div class="global_error" id="signin_global_error">&nbsp;</div>
+    <div id="password_expired">
+      <p data-l10n-id="expiredV1Password">Your password has expired.<br>Please reset it now.</p>
+      <button id="password_expired_ok" data-l10n-id="ok">OK</button>
+    </div>
+    <div class="inputvalue">
+      <input type="email" id="signin_user" class="inputfield" placeholder="email" autofocus/>
+
+      <div class="msg_icon"></div>
+      <div class="msg_text"></div>
+    </div>
+    <div class="inputvalue">
+      <input type="password" id="signin_password" class="inputfield" placeholder="loginForm_password"/>
+
+      <div class="msg_icon"></div>
+      <div class="msg_text"></div>
+    </div>
+
+    <div id="show_related"><input type="checkbox" id="simsearch" class="checkbox"/><label for="simsearch"
+                                                                                          data-l10n-id="loginForm_searchHelper">%Show
+      related results%</label></div>
+    <button id="signin" type="submit" class="clickable" data-l10n-id="loginForm_login">%Sign In%</button>
+    <button id="register" type="button" class="clickable" data-l10n-id="header_register">%Create an account%</button>
+    <footer id="forgot_password" class="clickable" data-l10n-id="forgotPassword">%Forgot password?%</footer>
+  </div>
+</div>
+<div id="page_registration">
+  <div class="inner">
+    <div id="registration_close" class="close clickable"></div>
+    <div id="registration_left">
+      <div class="leftside_inner">
+        <div id="leftside_bottom" data-l10n-id="regAd"></div>
+      </div>
+    </div>
+    <div id="registration_right">
+      <div class="logo clickable"></div>
+      <div class="global_error" id="registration_global_error">&nbsp;</div>
+      <div class="sign_in clickable"><span class="arrow_left"></span><span
+          data-l10n-id="loginForm_login">%Sign in%</span></div>
+
+      <div class="inputvalue">
+        <input type="email" placeholder="email" id="registration_email" class="inputfield"/>
+
+        <div class="msg_icon"></div>
+        <div class="msg_text"></div>
+      </div>
+      <div class="inputvalue">
+        <input type="text" id="registration_user" class="inputfield" placeholder="registrationForm_username"/>
+
+        <div class="msg_icon"></div>
+        <div class="msg_text"></div>
+      </div>
+      <div class="inputvalue">
+        <input type="password" id="registration_password" class="inputfield" placeholder="loginForm_password"/>
+
+        <div class="msg_icon"></div>
+        <div class="msg_text"></div>
+      </div>
+      <div class="registration_captcha">
+        <div class="inputvalue">
+          <input type="text" id="registration_captcha_resp" placeholder="captcha_instruction" maxlength="5"
+                 class="inputfield"/>
+
+          <div class="msg_icon"></div>
+          <div class="msg_text"></div>
+        </div>
+        <img id="registration_captcha_req" width="128">
+      </div>
+      <button id="registration" type="button" class="clickable" data-l10n-id="register">%Register%</button>
+      <footer id="tos" data-message="registration_terms">Регистрируясь, вы соглашаетесь
+        со следующими документами:
+             </footer>
+    </div>
+  </div>
+</div>
+<div id="page_twofactor">
+  <div class="inner">
+    <div id="twofactor_close" class="close clickable"></div>
+    <div class="logo clickable"></div>
+    <div class="global_error" id="twofactor_global_error">&nbsp;</div>
+    <div class="cancel"><span class="arrow_left clickable"></span><span data-l10n-id="regForm_cancel">%Cancel%</span>
+    </div>
+    <div class="explanation" id="secondFactorExplanation" data-l10n-id="gaMessage">
+      %Enter the verification code displayed in your Google Authenticator app%
+    </div>
+    <div class="instruction" data-l10n-id="enterCode">%Enter Code%</div>
+    <div class="inputvalue">
+      <input id="code" class="inputfield" placeholder="sixDigitCode" maxlength="6"/>
+
+      <div class="msg_icon"></div>
+      <div class="msg_text"></div>
+    </div>
+    <button id="continue" type="button" class="clickable" data-l10n-id="continue">%Continue%</button>
+    <footer id="verification_code" class="clickable" data-l10n-id="twoStepHelp">%I need help getting a verification
+      code%
+    </footer>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+/* CSS Stylesheet */
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+.evernote-toolbar {
+  border: 2px solid red;
+  border-radius: 4px;
+}

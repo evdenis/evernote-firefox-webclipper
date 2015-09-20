@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html id="html">
+<head>
+  <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,bold,italic" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Inconsolata:regular,bold,italic" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="clearly/css/style.css" type="text/css" />
+  <link id="baseCSS" href="clearly/css/base__newsprint.css" rel="stylesheet" type="text/css" />
+  <style>
+  html {
+    background-color: #f3f2ee;
+  }
+
+  #body {
+    font-family: "PT Serif";
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #1f0909;
+    text-align: left;
+  }
+
+  #background {
+    background-color: #f3f2ee;
+  }
+
+  .setTextColorAsBackgroundColor {
+    background-color: #1f0909;
+  }
+
+  .setBackgroundColorAsTextColor {
+    color: #f3f2ee;
+  }
+  #box {
+    margin: 72px auto;
+  }
+  #box,
+  .setBoxWidth {
+    width: 36em;
+  }
+
+  a {
+    color: #065588;
+  }
+
+  a:visited {
+    color: #1f0909;
+  }
+
+  @media print {
+    body.footnote_links__on_print a,
+    body.footnote_links__on_print a:hover {
+      color: #1f0909 !important;
+      text-decoration: none !important;
+    }
+  }
+
+  body.footnote_links__always a, body.footnote_links__always a:hover {
+    color: #1f0909 !important;
+    text-decoration: none !important;
+  }
+
+  img {
+    border-color: #1f0909;
+    max-width: 100%;
+    height: auto;
+  }
+
+  a img {
+    border-color: #065588;
+  }
+
+  a:visited img {
+    border-color: #1f0909;
+  }
+
+  h1 a, h2 a, a h1, a h2 {
+    color: #1f0909;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "PT Serif";
+    line-height: 1em;
+  }
+
+  pre {
+    background-color: #f3f2ee;
+  }
+
+  pre, code {
+    font-family: Inconsolata;
+  }
+
+  hr {
+    border-color: #1f0909;
+  }
+
+  /* test should not be needed in ff */
+  html.rtl #body #text {
+    text-align: right !important;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+   text-align: left;
+  }
+
+  html.rtl h1, html.rtl h2, html.rtl h3, html.rtl h4, html.rtl h5, html.rtl h6 {
+    text-align: right !important;
+  }
+
+  #text #articleHeader {
+    border-color: #c5c5c5;
+  }
+
+  #text #relatedNotes {
+    border-color: rgba(197, 197, 197, 0.5);
+  }
+
+  #text blockquote {
+    border-color: #bababa; color: #656565;
+  }
+
+  #text thead {
+    background-color: #dadada;
+  }
+
+  #text tr:nth-child(even) {
+    background: #e8e7e7;
+  }
+  #text hr {
+    border-color: #c5c5c5;
+  }
+  </style>
+</head>
+<body id="body">
+  <div id="bodyContent">
+    <div id="box">
+      <div id="box_inner">
+        <div id="text">
+          <div id="pages"></div>
+          <ol id="footnotedLinks"></ol>
+        </div>
+      </div>
+    </div>
+    <div id="background"></div>
+  </div>
+</body>
+</html>

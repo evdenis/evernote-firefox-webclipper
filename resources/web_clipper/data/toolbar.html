@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="toolbar.css" type="text/css">
+<title>Toolbar</title>
+</head>
+
+<body class="normal" data-dst="cloud" data-synth-mode="text">
+<div id="inner_toolbar">
+    	<div id="toolbar_close_icon" class="clickable"></div>
+        <textarea id="toolbar_title">%text%</textarea>
+        <div id="toolbar_title_static"  tabindex="2">Untitled</div>
+        <button id="toolbar_save" type="button" class="clickable" data-l10n-id="saveToEvernote" tabindex="1">%Save%</button>
+        <button id="toolbar_cancel" type="button" class="clickable"  data-l10n-id="regForm_cancel">%Cancel%</button>
+
+        <div class="toolbar clip">
+            <h1><span data-l10n-id="quickNote">%Clip%</span></h1>
+            <ul class="toolbar_text">
+                <li class="clip_article clip_text" id="clip_article"><span class="clickable" data-l10n-id="articleClip">%Article%</span></li>
+                <li class="clip_simplified clip_text"  id="clip_simplified"><span class="clickable" data-l10n-id="clearly">%Simplified Article%</span></li>
+                <li class="clip_selection clip_text" id="clip_selection"><span class="clickable" data-l10n-id="selectionClip">%Selection%</span></li>
+                <li class="clip_full_page clip_text" id="clip_full_page"><span class="clickable" data-l10n-id="fullPageClip">%Full page%</span></li>
+                <li class="clip_pdf" id="clip_pdf" ><span class="clickable" data-l10n-id="contextMenuClipPDF">%Clip PDF%</span></li>
+                <li class="clip_image" id="clip_image"><span class="clickable" data-l10n-id="contextMenuClipImage">%Clip image%</span></li>
+                <li class="clip_audio" id="clip_audio"><span class="clickable" data-l10n-id="contextMenuClipAudio">Clip audio</span></li>
+                <li class="clip_bookmark" id="clip_bookmark"><span class="clickable" data-l10n-id="urlClip">%Bookmark%</span></li>
+                <li class="clip_screenshot" id="clip_screenshot"><span class="clickable" data-l10n-id="screenshotClip">%Screen Capture%</span></li>
+            </ul>
+        </div>
+        <div class="toolbar skitch">
+          <h1><span data-l10n-id="annotate">%Annotate%</span></h1>
+          <div class="tool_row">
+            <div
+            id="hilite_tool" class="tool" selection="highlighter" ></div><div
+            id="shape_tool" class="tool more  active" selection="arrow" ></div><div
+            id="pen_tool" selection="pen" class="tool"></div><div
+            id="frame_tool" class="tool" selection="crop" ></div><div
+            id="zoomout_tool" class="tool" selection="zoom-out"></div>
+          </div>
+          <div class="tool_row">
+            <div
+            id="mark_tool" class="more tool" selection="stampDefault"></div><div
+            id="type_tool" class="tool" selection="text" ></div><div
+            id="pixel_tool" class="tool" selection="pixelate" ></div><div
+            id="color_tool" class="more" selection="red" ></div><div
+            id="zoomin_tool" class="tool" selection="zoom-in" ></div>
+          </div>
+        </div><div class="toolbar metadata">
+        	<h1><span data-l10n-id="organize">%Organize%</span></h1>
+            <ul class="toolbar_filing">
+            	<li id="notebook" class="closed loading" tabindex="3"><span class="clickable" ></span><div class="dropdown">&nbsp;</div><div class="anchor bottom"></div></li>
+              <li class="add_tag" >
+              <input placeholder="quickNote_addTags" id="add_tag"  tabindex="4"/>
+              </li>
+              <li class="tag_list">
+                <div id="tags">
+                </div>
+              </li>
+              <li class="comment"><textarea class="clickable" tabindex="5" id="add_comment" placeholder="quickNote_addComment"></textarea></li>
+            </ul>
+        </div>
+		<footer class="clickable">
+        <hr>
+        <div class="toolbar_setting" id="settings" data-l10n-id="options_title">%Settings%</div>
+        <div class="toolbar_logout" id="logout" data-l10n-id="signOutAccount">%Signout%</div>
+        </footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>{E0B8C461-F8FB-49b4-8373-FE32E9252800}</em:id>
+    <em:version>6.0.15.1-signed</em:version>
+    <em:type>2</em:type>
+    <em:bootstrap>true</em:bootstrap>
+    <em:unpack>false</em:unpack>
+
+    <!-- Firefox -->
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>26.0</em:minVersion>
+        <em:maxVersion>30.0</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+
+    <!-- Front End MetaData -->
+    <em:name>Evernote Web Clipper</em:name>
+    <em:description>The Evernote Web Clipper is the easiest way to save, mark up and share anything you see online. From clipping pages to taking and annotating screenshots, the Evernote Web Clipper lets you capture everything, then access it from anywhere.</em:description>
+    <em:creator>Evernote</em:creator>
+    
+    <em:optionsType>2</em:optionsType>
+    
+  </Description>
+</RDF>

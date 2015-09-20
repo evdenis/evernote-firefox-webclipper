@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+body, #content {
+  min-width: 16px;
+  width: 16px;
+  min-height: 16px;
+  height: 16px;
+  padding: 0;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+}
+
+.sidebar-open {
+  background-image: url(images/wc6_close.png);
+}
+.sidebar-open[cui-areatype="menu-panel"],
+toolbarpaletteitem[place="palette"] > .sidebar-open {
+  background-image: url(images/wc6_close@2x.png);
+}
+
+.update-available {
+  background-image: url(images/wc6_update.png);
+}
+
+.update-available[cui-areatype="menu-panel"],
+toolbarpaletteitem[place="palette"] > .update-available {
+  background-image: url(images/wc6_update@2x.png);
+}
+
+.logged-in {
+  background-image: url(images/wc6.png);
+}
+
+.logged-in[cui-areatype="menu-panel"],
+toolbarpaletteitem[place="palette"] > .logged-in {
+  background-image: url(images/wc6@2x.png);
+}
+
+.logged-out {
+  background-image: url(images/wc6_signin.png);
+}
+
+.logged-out[cui-areatype="menu-panel"],
+toolbarpaletteitem[place="palette"] > .logged-out {
+  background-image: url(images/wc6_signin@2x.png);
+}
+
+@media (min--moz-device-pixel-ratio: 2),    /* Prior to Firefox 16 */
+(min-resolution: 2dppx),             /* The standard way */
+(min-resolution: 192dpi) {
+
+.sidebar-open {
+  background-image: url(images/wc6_close@2x.png);
+}
+
+.update-available {
+    background-image: url(images/wc6_update@2x.png);
+}
+.logged-in {
+    background-image: url(images/wc6@2x.png);
+}
+.logged-out {
+    background-image: url(images/wc6_signin@2x.png);
+}
+}
+
+</style>
+<body>
+<div id="content" class="logged-out"></div>
+</body>
+</html>

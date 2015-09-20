@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title data-l10n-id="options_title">%Options%</title>
+  <link rel="stylesheet" type="text/css" href="options.css"/>
+  <script>
+
+    var global = this;
+
+    if (global.$ === undefined) {
+      // A nod to jquery
+      global.$ = function(sel) {
+        //TODO: cache results
+        var el = document.querySelector(sel);
+        if (!el) {
+          console.error(sel, "Not found");
+        }
+        return el;
+      }
+    }
+    if (global.$$ === undefined) {
+      // A nod to jquery
+      global.$$ = function(sel) {
+        //TODO: cache results
+        return document.querySelectorAll(sel);
+      }
+    }
+  </script>
+<body>
+<header>
+  <form action="javascript:void(0)">
+    <div class='logo'></div>
+    <div class='info'>
+      <div class="version"><span class="key" data-l10n-id="version">%Version:%</span><span id="version"
+                                                                                           class="value"></span></div>
+      <div class="logged-in"><span class="key" data-l10n-id="signedInAs">%Signed in as:%</span>
+        <span id="username" class="value"></span><a href="#" id="logout" data-l10n-id="signout">%Sign Out%</a></div>
+      <div class="logged-out">Signed out</div>
+    </div>
+    <ul class="tab_selection">
+      <li>
+        <input type="radio" name="tab_selection" value="options" id="goto_options" checked="1"/>
+        <label for="goto_options" data-l10n-id="options_title">%Options%</label>
+      </li>
+      <li>
+        <input type="radio" name="tab_selection" value="keyboard" id="goto_keyboard"/>
+        <label for="goto_keyboard" data-l10n-id="keyboardShortcuts">%Keyboard%</label>
+      </li>
+      <li>
+        <input type="radio" name="tab_selection" value="legal" id="goto_legal"/>
+        <label for="goto_legal" data-l10n-id="legal">%Legal$</label>
+      </li>
+    </ul>
+  </form>
+</header>
+<div class="pages" id="pages" selection="options">
+<div class="inner">
+<article id="page_options">
+  <form action="javascript:void(0)">
+    <section class="dbg">
+      <h1>Connection</h1>
+      <ul>
+        <li>
+          <input type="radio" name="useHttps" value="0" id="use_http"/>
+
+          <div><label for="use_http">Use HTTP</label></div>
+        </li>
+        <li>
+          <input type="radio" name="useHttps" value="1" id="use_https"/>
+
+          <div><label for="use_https">Use HTTPS</label></div>
+        </li>
+      </ul>
+    </section>
+    <section class="dbg">
+      <h1>Boot configuration</h1>
+      <ul>
+        <li>
+          <input type="radio" name="configType" value="prod" id="use_prod"/>
+
+          <div><label for="use_prod">Production</label></div>
+        </li>
+        <li>
+          <input type="radio" name="configType" value="staging" id="use_staging"/>
+
+          <div><label for="use_staging">Staging</label></div>
+        </li>
+      </ul>
+    </section>
+    <section class="dbg">
+      <h1>Boot server</h1>
+      <ul>
+        <li>
+          <input type="radio" name="boot_server" value="auto" id="server_auto"/>
+
+          <div><label for="server_auto">Determine automatically</label></div>
+        </li>
+        <li>
+          <input type="radio" name="boot_server" value="override" id="server_override"/>
+
+          <div><label for="server_override">Use a server</label>
+            <select id="server_name" name="server_name">
+              <option value="us-prod">www.evernote.com (US production)</option>
+              <option value="cn-prod">app.yinxiang.com (China production)</option>
+              <option value="us-stage">stage.evernote.com (US staging)</option>
+              <option value="cn-stage">stage-china.evernote.com (China staging)</option>
+            </select>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="dbg">
+      <h1>Boot location</h1>
+      <ul>
+        <li>
+          <input type="radio" name="boot_location" value="auto" id="location_auto"/>
+
+          <div><label for="location_auto">Determine automatically</label></div>
+        </li>
+        <li>
+          <input type="radio" name="boot_location" value="override" id="location_override"/>
+
+          <div><label for="location_override">Set location to</label>
+            <select id="location_name" name="location_name">
+              <option value="us">United States</option>
+              <option value="cn">China</option>
+            </select>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+
+      <h1 data-l10n-id="optionsSendClipsTo">Send clips to</h1>
+      <ul>
+        <li>
+          <input type="radio" name="clipDestination" value="cloud" id="use_cloud"/>
+
+          <div><label for="use_cloud" data-l10n-id="optionsClipDestinationCloud">Evernote web</label></div>
+        </li>
+        <li>
+          <input type="radio" name="clipDestination" value="native" id="use_native"/>
+          <div><label for="use_native" data-l10n-id="optionsClipDestinationNative">Evernote desktop</label></div>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h1 data-l10n-id="notebookSelection">%Notebook selection%</h1>
+      <ul>
+        <li>
+          <input type="radio" name="notebookSelection" value="smart" id="nbs_smart"/>
+
+          <div><label for="nbs_smart" data-l10n-id="useSmartFiling">%Use Smart Filing%</label></div>
+          <br>
+          <input type="checkbox" name="useSmartFilingBiz" id="nbs_smart_biz"/>
+
+          <div><label data-l10n-id="options_smartFilingBizDesc" for="nbs_smart_biz">%Allow Smart Filing into Business
+            Notebooks%</label></div>
+        </li>
+        <li>
+          <input type="radio" name="notebookSelection" value="last" id="nbs_last"/>
+
+          <div><label for="nbs_last" data-l10n-id="lastUsedNotebook">%Last used notebook%</label></div>
+        </li>
+        <li>
+          <input type="radio" name="notebookSelection" value="fixed" id="nbs_fixed"/>
+
+          <div><label for="nbs_fixed"><span data-l10n-id="alwaysStartIn">%Always Start in%</span></label>
+            <select id="startNotebook"></select></div>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h1 data-l10n-id="tagSelection">%Tag selection%</h1>
+      <ul>
+        <li>
+          <input type="checkbox" id="tag_smart"/>
+
+          <div><label for="tag_smart" data-l10n-id="useSmartFiling">%Use Smart Filing%</label></div>
+        </li>
+        <li>
+          <input type="checkbox" id="tag_fixed"/>
+
+          <div><label for="tag_fixed"><span data-l10n-id="alwaysTagWith">%Always tag with%</span></label>
+            <input type="text" id="startTag" placeholder="quickNote_addTags"/></div>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h1 data-l10n-id="options_clipAction">%Default clip action%</h1>
+      <ul>
+        <li>
+          <input type="radio" name="defaultClipAction" value="last" id="act_last"/>
+
+          <div><label for="act_last" data-l10n-id="lastUsedAction">%lastUsedAction%</label></div>
+        </li>
+        <li>
+          <input type="radio" name="defaultClipAction" value="fixed" id="act_fixed"/>
+
+          <div><label for="act_fixed"><span data-l10n-id="alwaysStartIn">%Always start in%</span></label>
+            <select id="act_select">
+              <option data-l10n-id="articleClip" value="article">%Article%</option>
+              <option data-l10n-id="clearly" value="clearly">%Clearly%</option>
+              <option data-l10n-id="fullPageClip" value="full">%Full Page%</option>
+              <option data-l10n-id="urlClip" value="url">%Url%</option>
+            </select></div>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h1 data-l10n-id="afterClip">%after clip%</h1>
+      <ul>
+        <li>
+          <input type="radio" name="afterClip" value="full" id="pc_full"/>
+
+          <div><label data-l10n-id="showSuccessfulClipDialog" for="pc_full">%showSuccessfulClipDialog%</label></div>
+        </li>
+        <li>
+          <input type="radio" name="afterClip" value="shrunk" id="pc_shrink"/>
+
+          <div><label for="pc_shrink" data-l10n-id="showSuccessfulClipDialogWithoutRelatedNotes">%showSuccessfulClipDialogWithoutRelatedNotes%</label>
+          </div>
+        </li>
+        <li>
+          <input type="radio" name="afterClip" value="close" id="pc_close"/>
+
+          <div><label for="pc_close" data-l10n-id="autocloseClipper">%Automatically close Clipper%</label></div>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h1 data-l10n-id="options_useSearchHelper">%Related results%</h1>
+      <ul>
+        <li>
+          <input type="checkbox" name="show_simsearch" id="show_simsearch" checked="true"/>
+
+          <div><label for="show_simsearch" data-l10n-id="options_useSearchHelperDescription">%Show Evernote content
+            related to my web searches%</label></div>
+        </li>
+      </ul>
+    </section>
+  </form>
+</article>
+<article id="page_keyboard">
+  <form action="javascript:void(0)">
+    <section>
+      <ul>
+        <li>
+          <input type="checkbox" id="enable_shortcuts" name="enable_shortcuts"/>
+          <label for="enable_shortcuts" data-l10n-id="enableKeyboardShortcuts">%Enable keyboard shortcuts:</label>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h1 data-l10n-id="globalShortcuts">Global:</h1>
+      <ul>
+        <li>
+          <label for="start_web_clipper" data-l10n-id="startWebClipper">Start Web Clipper</label>
+          <input type="text" class="noxlate" id="start_web_clipper" readonly value="CTRL-`">
+        </li>
+        <li>
+          <label for="start_simplified_clipper" data-l10n-id="startWebClipperClearly">Start Web Clipper in
+            Simplified</label>
+          <input type="text" class="noxlate" id="start_simplified_clipper" readonly value="CTRL-SHIFT-`">
+        </li>
+        <li>
+          <label for="close_web_clipper" data-l10n-id="closeWebClipper">Close Web Clipper</label>
+          <input type="text" id="close_web_clipper" readonly value="ESC">
+        </li>
+      </ul>
+      <h1 data-l10n-id="clipShortcuts">Clip:</h1>
+      <ul>
+        <li>
+          <label for="preview_article" data-l10n-id="articleClip">Article</label>
+          <input type="text" id="preview_article" readonly value="A">
+        </li>
+        <li>
+          <label for="simplified_article" data-l10n-id="clearly">Simplified article</label>
+          <input type="text" id="simplified_article" readonly value="C">
+        </li>
+        <li>
+          <label for="full_page" data-l10n-id="fullPageClip">Full page</label>
+          <input type="text" id="full_page" readonly value="F">
+        </li>
+        <li>
+          <label for="bookmark" data-l10n-id="urlClip">Bookmark</label>
+          <input type="text" id="bookmark" readonly value="B">
+        </li>
+        <li>
+          <label for="screenshot" data-l10n-id="screenshotClip">Screenshot</label>
+          <input type="text" id="screenshot" readonly value="M">
+        </li>
+        <li>
+          <label for="expand_article" data-l10n-id="expandArticle">Expand article selection</label>
+          <input type="text" id="expand_article" readonly value="↑">
+        </li>
+        <li>
+          <label for="contract_article" data-l10n-id="contractArticle">Contract article selection</label>
+          <input type="text" id="contract_article" readonly value="↓">
+        </li>
+        <li>
+          <label for="save" data-l10n-id="saveToEvernote">Save</label>
+          <input type="text" id="save" readonly value="Enter">
+        </li>
+      </ul>
+      <h1 data-l10n-id="markupShortcuts">Markup:</h1>
+      <ul>
+        <li>
+          <label for="select_markup_objects" data-l10n-id="selectAllMarkup">Select all markup objects</label>
+          <input type="text" id="select_markup_objects" readonly value="CTRL + A">
+        </li>
+        <li>
+          <label for="arrow" data-l10n-id="arrow">Arrow</label>
+          <input type="text" id="arrow" readonly value="CTRL + ALT + A">
+        </li>
+        <li>
+          <label for="text" data-l10n-id="text">Text</label>
+          <input type="text" id="text" readonly value="CTRL + ALT + T">
+        </li>
+        <li>
+          <label for="rectangle" data-l10n-id="Rectangle">Rectangle</label>
+          <input type="text" id="rectangle" readonly value="CTRL + ALT + R">
+        </li>
+        <li>
+          <label for="rounded_rectangle" data-l10n-id="roundedRectangle">Rounded Rectangle</label>
+          <input type="text" id="rounded_rectangle" readonly value="CTRL + ALT + U">
+        </li>
+        <li>
+          <label for="ellipse" data-l10n-id="ellipse">Ellipse</label>
+          <input type="text" id="ellipse" readonly value="CTRL + ALT + O">
+        </li>
+        <li>
+          <label for="line" data-l10n-id="line">Line</label>
+          <input type="text" id="line" readonly value="CTRL + ALT + L">
+        </li>
+        <li>
+          <label for="marker" data-l10n-id="marker">Marker</label>
+          <input type="text" id="marker" readonly value="CTRL + ALT + M">
+        </li>
+        <li>
+          <label for="highlighter" data-l10n-id="highlighter">highlighter</label>
+          <input type="text" id="highlighter" readonly value="CTRL + ALT + I">
+        </li>
+        <li>
+          <label for="stamp" data-l10n-id="stamp">Stamp</label>
+          <input type="text" id="stamp" readonly value="CTRL + ALT + P">
+        </li>
+        <li>
+          <label for="pixelate" data-l10n-id="pixelate">Pixelate</label>
+          <input type="text" id="pixelate" readonly value="CTRL + ALT + X">
+        </li>
+        <li>
+          <label for="crop" data-l10n-id="crop">Crop</label>
+          <input type="text" id="crop" readonly value="CTRL + ALT + K">
+        </li>
+        <li>
+          <label for="zoom_in" data-l10n-id="zoomin">Zoom In</label>
+          <input type="text" id="zoom_in" readonly value="CTRL + '+'">
+        </li>
+        <li>
+          <label for="zoom_out" data-l10n-id="zoomout">Zoom out</label>
+          <input type="text" id="zoom_out" readonly value="CTRL + '-'">
+        </li>
+        <li>
+          <label for="zoom_fit" data-l10n-id="zoomToFit">Zoom to fit</label>
+          <input type="text" id="zoom_fit" readonly value="CTRL + 0">
+        </li>
+        <li>
+          <label for="zoom_100" data-l10n-id="zoomToOriginal">Zoom to 100%</label>
+          <input type="text" id="zoom_100" readonly value="CTRL + 1">
+        </li>
+        <li>
+          <label for="undo" data-l10n-id="undo">Undo</label>
+          <input type="text" id="undo" readonly value="CTRL + Z">
+        </li>
+        <li>
+          <label for="redo" data-l10n-id="redo">Redo</label>
+          <input type="text" id="redo" readonly value="CTRL + SHIFT + Z">
+        </li>
+      </ul>
+
+    </section>
+  </form>
+</article>
+<article id="page_legal">
+<h1 data-l10n-id="legalNoticesTitle">Legal notices</h1>
+
+<div class="copyright">Copyright 2014 Evernote Corporation.</div>
+
+<p>You may use the Evernote Web Clipper subject to the terms and conditions of the <a
+    href="https://evernote.com/legal/tos.php" target="_blank">Evernote Terms of Service</a>.</p>
+
+
+<div class="license">
+  <h2>Apache Thrift</h2>
+
+  <p>Licensed to the Apache Software Foundation (ASF) under one or more contributor license agreements. See the NOTICE
+    file distributed with this work for additional information regarding copyright ownership. The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with
+    the License. You may obtain a copy of the License at <a target="_blank"
+                                                            href="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</a>
+  </p>
+
+  <p>Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on
+    an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the
+    specific language governing permissions and limitations under the License.
+  </p>
+</div>
+
+<div class="license">
+  <h2>Mozilla Add-on SDK</h2>
+  This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0. If a copy of the MPL was not
+  distributed with this file, You can obtain one at <a target="_blank" href="http://mozilla.org/MPL/2.0/">http://mozilla.org/MPL/2.0/</a>.
+</div>
+
+<div class="license">
+  <h2>jQuery</h2>
+
+  <div class="copyright">Copyright 2013 jQuery Foundation and other contributors</div>
+  <p><a target="_blank" href="http://jquery.com/">http://jquery.com/</a></p>
+
+  <p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
+    documentation files (the "Software"), to deal in the Software without restriction, including without limitation the
+    rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to
+    permit persons to whom the Software is furnished to do so, subject to the following conditions:
+  </p>
+
+  <p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of
+    the Software.
+  </p>
+
+  <p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+    THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+    TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
+  </p>
+</div>
+<div class="license">
+  <h2>Toolbar Widget</h2>
+
+  <div class="copyright">Copyright (c) 2014 Rob Wu</div>
+  <p>Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+    The above copyright notice and this permission notice shall be included in
+    all copies or substantial portions of the Software.</p>
+
+  <p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+    THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+    TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
+  </p>
+</div>
+<div class="license">
+  <h2>Crypto-JS</h2>
+
+  <div class="copyright">&copy; 2009 – 2012 by Jeff Mott. All rights reserved.</div>
+  <p>Redistribution and use in source and binary forms, with or without modification, are permitted provided that the
+    following conditions are met:
+  </p>
+
+  <p>Redistributions of source code must retain the above copyright notice, this list of conditions and the following
+    disclaimer.
+  </p>
+
+  <p>Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following
+    disclaimer in the documentation and/or other materials provided with the distribution.
+  </p>
+
+  <p>THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES,
+    INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+    DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+    SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+    SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+    WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+    OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+  </p>
+</div>
+<div class="license">
+  <h2>Date-Util.js</h2>
+
+  <div class="copyright">&copy; 2011 by Jerry Sievert</div>
+  <p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
+    documentation files (the "Software"), to deal in the Software without restriction, including without limitation the
+    rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to
+    permit persons to whom the Software is furnished to do so, subject to the following conditions:
+  </p>
+
+  <p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of
+    the Software.
+
+  <p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+    THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+    TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
+  </p>
+</div>
+<div class="license">
+  <h2>FileSaver.js</h2>
+
+  <div class="copyright">Copyright &copy; 2011 Eli Grey</div>
+  <p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
+    documentation files (the "Software"), to deal in the Software without restriction, including without limitation the
+    rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to
+    permit persons to whom the Software is furnished to do so, subject to the following conditions:
+  </p>
+
+  <p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of
+    the Software.
+  </p>
+
+  <p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+    THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+    TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
+  </p>
+</div>
+<div class="license">
+  <h2>Hammer.js</h2>
+
+  <div class="copyright">Copyright (C) 2013 by Jorik Tangelder (Eight Media)</div>
+  <p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
+    documentation files (the "Software"), to deal in the Software without restriction, including without limitation the
+    rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to
+    permit persons to whom the Software is furnished to do so, subject to the following conditions:
+  </p>
+
+  <p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of
+    the Software.
+
+  </p>
+
+  <p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+    THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+    TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
+  </p>
+</div>
+<div class="license">
+  <h2>log4javascript</h2>
+
+  <div class="copyright">Copyright 2013 Tim Down</div>
+  <p>Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with
+    the License. You may obtain a copy of the License at
+    <a target="_blank" href="">http://www.apache.org/licenses/LICENSE-2.0</a>
+  </p>
+
+  <p>Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on
+    an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the
+    specific language governing permissions and limitations under the License.
+  </p>
+
+  <h2>pointerevents.js</h2>
+
+  <div class="copyright">Copyright (c) 2013 The Polymer Authors. All rights reserved.</div>
+  <p>Redistribution and use in source and binary forms, with or without modification, are permitted provided that the
+    following conditions are met:
+  </p>
+
+  <p>Redistributions of source code must retain the above copyright notice, this list of conditions and the following
+    disclaimer.
+  </p>
+
+  <p>Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following
+    disclaimer in the documentation and/or other materials provided with the distribution.
+  </p>
+
+  <p>Neither the name of Google Inc. nor the names of its contributors may be used to endorse or promote products
+    derived from this software without specific prior written permission.
+
+  </p>
+
+  <p>THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES,
+    INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+    DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+    SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+    SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+    WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+    OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+  </p>
+</div>
+<div class="license">
+  <h2>RequireJS</h2>
+
+  <div class="copyright">Copyright (c) 2010-2011, The Dojo Foundation</div>
+  <p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
+    documentation files (the "Software"), to deal in the Software without restriction, including without limitation the
+    rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to
+    permit persons to whom the Software is furnished to do so, subject to the following conditions:
+  </p>
+
+  <p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of
+    the Software.
+
+  </p>
+
+  <p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+    THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+    TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
+  </p></div>
+<div class="license">
+  <h2>StackBlur</h2>
+
+  <div class="copyright">Copyright (c) 2010 Mario Klingemann</div>
+  <p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
+    documentation files (the "Software"), to deal in the Software without restriction, including without limitation the
+    rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to
+    permit persons to whom the Software is furnished to do so, subject to the following conditions:
+  </p>
+
+  <p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of
+    the Software.
+
+  </p>
+
+  <p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+    THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+    TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
+  </p>
+</div>
+<div class="license">
+  <h2>Underscore.js</h2>
+
+  <div class="copyright">Copyright (c) 2009-2014 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+  </div>
+
+  <p>Permission is hereby granted, free of charge, to any person
+    obtaining a copy of this software and associated documentation
+    files (the "Software"), to deal in the Software without
+    restriction, including without limitation the rights to use,
+    copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the
+    Software is furnished to do so, subject to the following
+    conditions:
+
+  </p>
+
+  <p>The above copyright notice and this permission notice shall be
+    included in all copies or substantial portions of the Software.
+
+  </p>
+
+  <p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+    EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+    OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+    NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+    HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+    WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+    FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+    OTHER DEALINGS IN THE SOFTWARE.
+  </p>
+</div>
+
+</article>
+</div>
+</div>
+<footer>
+  <button id="done" type="button" data-l10n-id="done" class="clickable">%Done%</button>
+  <div class="copyright">
+    Copyright 2009-2015 Evernote Corporation. All rights reserved.
+  </div>
+  <div id="links">
+    <a href="https://evernote.com/legal/privacy.php" target="_blank">Privacy Policy</a> |
+    <a href="https://evernote.com/legal/tos.php" target="_blank">Terms of Service</a>
+  </div>
+</footer>
+</body>
+<script src="options.js"></script>
+</html>

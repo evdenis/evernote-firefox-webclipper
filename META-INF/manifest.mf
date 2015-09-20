@@ -1,0 +1,1988 @@
+Manifest-Version: 1.0
+
+Name: install.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 8+7sRY3g6bhEkYsfe1FAQw==
+SHA1-Digest: v+SoDPLW98FIULESNuaKVBjHsfk=
+
+Name: chrome.manifest
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: b3WikDlmTjPT13RB/n6QGw==
+SHA1-Digest: JdHP2MbTyhTa7UhXrvVuc6VonG0=
+
+Name: icon.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: qNKRH10/pgs3ubvzaWpZ8A==
+SHA1-Digest: arFvRjW70lko0WNZYv0McHmVAWI=
+
+Name: icon64.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: fUkC82Pd7wUQ3iutXBCX8w==
+SHA1-Digest: T+j8os4kWyu6BgGNHkRTCvqDlp0=
+
+Name: bootstrap.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 7e6z9LJUzPhqfgyfhRMzhA==
+SHA1-Digest: TWD0b5BkAoKXr56l0Tt3AkKBy8s=
+
+Name: harness-options.json
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: wShxcTV1kykS2c3aNI7xnw==
+SHA1-Digest: X2SAVyY7ZUt6lv0W6ssNYfp7RdM=
+
+Name: locales.json
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 1qbXG5QL4PXaulF94G3mQw==
+SHA1-Digest: MHm0U9tdBCc2bwK9TBSpwNPn7+c=
+
+Name: options.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 6DnwQyFYMDv67XswUf/NQg==
+SHA1-Digest: Mf7Dkflr7/l6KD8Imtz9r5887Qw=
+
+Name: chrome/content/global.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: KCAm4AivOEwo+G4cOU0PLA==
+SHA1-Digest: KinBne9r1E3nxSuteW2KrsJTnTc=
+
+Name: chrome/skin/chrome.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: EO/s7mlDn7oPp+k3f2MHuw==
+SHA1-Digest: ClWgnqu6DkOsjEAVKoEA8J3vN3k=
+
+Name: defaults/preferences/prefs.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 4hFI5qxlZ+oQWZhFv/vK4g==
+SHA1-Digest: 2TsDmZlbXi705maY+1gglVf5JTM=
+
+Name: locale/da.json
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: S3Roqw2tHeVSDpteY/WGNg==
+SHA1-Digest: FJBnfGpreKAOkL9W3tNMnRrZtQU=
+
+Name: locale/de.json
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 7Nq2jexQGU1B7073eS5hWw==
+SHA1-Digest: 0nruhwG1f2VbZTunCWZ7mevVQYw=
+
+Name: locale/en.json
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: sWoaRc+V/xJf54T4FmsN5A==
+SHA1-Digest: 7Mxzu1nGk0toAAHBAhYaVjfJun4=
+
+Name: locale/es.json
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: SYvYDbtzsP8AviMCkug1UA==
+SHA1-Digest: HtIQYryiMQki3y4Sjgb/cZKc73o=
+
+Name: locale/fi.json
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 4PbO3aOiFGiRZDQMvIme4g==
+SHA1-Digest: hkg507mChBNQT59nel9uGqv69R0=
+
+Name: locale/fr.json
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: /hHJ3JQKtiNDra2FLF1siw==
+SHA1-Digest: +8PSlmS10qul4dw+u97pO9gkGzM=
+
+Name: locale/hu.json
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: W6Yn1sNEJ+vLX12RQTgI/w==
+SHA1-Digest: 862WAWBQ9Kamq45k0l0mfZS1+nw=
+
+Name: locale/id.json
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: oNraDF0AAjeWa6FZVhUegA==
+SHA1-Digest: A089qNRvIBhf1LuPgqOud5jVIOU=
+
+Name: locale/it.json
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: mlcMyM+a+aC2uDpGgCEVHw==
+SHA1-Digest: csbSz0hdCekeaXnH/4vww391XFY=
+
+Name: locale/ja.json
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: yZRvojaYFYvls3ku4c2Kcg==
+SHA1-Digest: i+s0szJaqyoY7UTSfMdawFsJObk=
+
+Name: locale/ko.json
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: CqCEMxRft82ExYWrO3PLnA==
+SHA1-Digest: 2RPGpOOsewR6iAgyG+Ti8ASm0BM=
+
+Name: locale/ms.json
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: nB9hASQDvtmxsnDSKSuJ2Q==
+SHA1-Digest: dLrpFhR7mXNIUaxTBy4ewaASaz4=
+
+Name: locale/nb.json
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: YTBu4rPGX0z5grn/SDw3tg==
+SHA1-Digest: +EwMk9M/jveQ34PmnV1D/iMz+Lg=
+
+Name: locale/nl.json
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: f2Y/asl7XVQU0I0AtVNy0A==
+SHA1-Digest: qpkGXvG/sdnGKmLtLPLu/EbkUtA=
+
+Name: locale/pl.json
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: zvCaN7yvpebq9Y9UQ8ZaSw==
+SHA1-Digest: abaw+Nmjo8agHyGQzS8j6DzGOzU=
+
+Name: locale/pt.json
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 3h5r11cVrUby3YO9X2AUJw==
+SHA1-Digest: kqnrCnhvQ7WWeA8PAurRfDBpAiM=
+
+Name: locale/pt_BR.json
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: p8ZrmZuft1m3BIqOgSNf6Q==
+SHA1-Digest: k4WjpyeHlx8fBioteZTCrgEeGDA=
+
+Name: locale/ro.json
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: HqOCtPbhnF8enYgB+T3iEQ==
+SHA1-Digest: 35n7ob7c+PmWJ5RCaLfW0XkPVcg=
+
+Name: locale/ru.json
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: jB+XDXl+d+R23XEs1Fkw5Q==
+SHA1-Digest: wCC4kiDSkivVSCgzh4+forcDHYs=
+
+Name: locale/sr.json
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 5WbXP//lISIUUyWqwsNM7Q==
+SHA1-Digest: cDUMcAlfQJ6BQEZB0jaxHhtqcJU=
+
+Name: locale/sv.json
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: pSKfT847+oFayHnaxt0yEg==
+SHA1-Digest: y2qSGHI3WfluqC6l0lkonUqs0Ng=
+
+Name: locale/th.json
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Z8uTrU5KMfBAlwqOI8X1Ug==
+SHA1-Digest: 4DJ2rcOW06Sn+KjD1mzSTExDddw=
+
+Name: locale/tr.json
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: oitUduxvmFM+8PUoZVDTuw==
+SHA1-Digest: Elk5b6cUoLIDwgbhEMLkUqwyqjI=
+
+Name: locale/vi.json
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: rhUi14rpnkkzFYlC0e7yrg==
+SHA1-Digest: ZZ28kRsvQu6q6a5ju7yEFxS6b14=
+
+Name: locale/zh_CN.json
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: yey7Qh3ToOeCQL1BYA14/g==
+SHA1-Digest: rMRMW0mCxztZfkJpG4TSyzu5g+s=
+
+Name: locale/zh_TW.json
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: fspFOpD4f5IZljw4bwEPfQ==
+SHA1-Digest: f7irAV3dz2PIiMEzqlZ7YEfrw4Q=
+
+Name: resources/toolbarwidget/lib/toolbarwidget.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: xC4uTf3F/mEsxmMt87OAPg==
+SHA1-Digest: fnfkmMlCyL92WZpe6nX21OJjRY0=
+
+Name: resources/web_clipper/data/article.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: BBppPBF8nobk0yVqztU3AQ==
+SHA1-Digest: VSKK7JqIj0ZL9KvyKxtzoAZqaaQ=
+
+Name: resources/web_clipper/data/bookmark-tmpl2.xml
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: l8YW0LgvUGpq181+8M/Fsw==
+SHA1-Digest: 0iAbKAa2F8lbLWeBLeDB1DdM3aI=
+
+Name: resources/web_clipper/data/color-pane.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: xZHpGNHsZAgy0360VX4EpA==
+SHA1-Digest: p8ckC9Cj4a1Umj4CusJwLL+8RC8=
+
+Name: resources/web_clipper/data/color-pane.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: eRm+J8SxdLHkszQTIgF7Cg==
+SHA1-Digest: MHGCpKVvh4hg7qmoGqs5A72Zhl4=
+
+Name: resources/web_clipper/data/color-pane.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: bcOGLTzKcxuHrLY0hzy60g==
+SHA1-Digest: kb3PVeRWEeVkQon3LWIJhDeBb/w=
+
+Name: resources/web_clipper/data/content.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: JKjzy/avsh0fLTseTaJCPA==
+SHA1-Digest: 1bAU6RL6cscNxImINyMCuhiSW6k=
+
+Name: resources/web_clipper/data/enml2.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: foSvFPlLz8JGfha5EogCRw==
+SHA1-Digest: JLCDiLIW7C+2Wia0AqvEyxgQf1k=
+
+Name: resources/web_clipper/data/fonts.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: k717qlUGH5nw3liitnN0cw==
+SHA1-Digest: nzziUiC+hw2nmMZdWVoJ/UdPpm0=
+
+Name: resources/web_clipper/data/global.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: NFCvi1Jk1ZwjhZT6zqiusg==
+SHA1-Digest: Vj87Qxo0Amu9GNM6COkP3FxM5HY=
+
+Name: resources/web_clipper/data/mark-pane.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ns2LVWhE+CKT4JyLZaVCMQ==
+SHA1-Digest: +rPpaYbRH5w0yeit+C0XMNthZ0Y=
+
+Name: resources/web_clipper/data/mark-pane.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: +ZXS9TWn8+n3MurlLiv4SA==
+SHA1-Digest: FW5cDMO8x+zsT/Te1xP+UexlAvs=
+
+Name: resources/web_clipper/data/menu-data.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: LvWAaHxHFQqvnGIq8Wj3Tw==
+SHA1-Digest: mA9a6C7xOCytUfESrLqZi6BEi+U=
+
+Name: resources/web_clipper/data/menu.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: sqgT9YsvKN/XDA/hNQ5WBw==
+SHA1-Digest: k1gHzzBvyFwqXm3rWqISINcARtA=
+
+Name: resources/web_clipper/data/msg-box.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: sCj7SxJ9I4Awwmxhnw2wqg==
+SHA1-Digest: znNh8zoN5OKXWQXtOg+LdeqJzOs=
+
+Name: resources/web_clipper/data/msg-box.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 48usfSJZ7bBxK5Hy/KqKFA==
+SHA1-Digest: TCamLfrCELi9v19U73BVYI9PdKU=
+
+Name: resources/web_clipper/data/notebook-pane.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: pqeUnfoxDLQ9YkyLDzUJcQ==
+SHA1-Digest: 3/KRfAgQdxYMF+rcvoV2WlXn1VI=
+
+Name: resources/web_clipper/data/notebook-pane.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: kTqCq9KJWZRFR4v1dIxFjA==
+SHA1-Digest: mX8TM42su6to5ryi2Pc2fzKh7kk=
+
+Name: resources/web_clipper/data/notebook-pane.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: bTsScr3cB5hXEsnaRo1sTA==
+SHA1-Digest: Hm3uH1nhf3mbAZpQF5H2Lb8tlRY=
+
+Name: resources/web_clipper/data/options.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Ji/4B3uBQETPPUi8lMdBHg==
+SHA1-Digest: 8yGFY4EnzhQuDrHkcqpep06FIC8=
+
+Name: resources/web_clipper/data/options.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 21epZhShsZMc7LzspE1Eiw==
+SHA1-Digest: 8mUWXDJ0UvZPNrqROMbvypKs9aI=
+
+Name: resources/web_clipper/data/options.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 5PSW9EvduDh5lICtqmKGHg==
+SHA1-Digest: CjEBesh9ExoYn5q2Lt6Q4gocD3Y=
+
+Name: resources/web_clipper/data/popup.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: qb1s2FX8b71L9gquZhf/Rw==
+SHA1-Digest: M1k/I5urq4S0U7nZRhgYsPkZfYw=
+
+Name: resources/web_clipper/data/popup.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: WedmIT/otshfVKbf5oQnwQ==
+SHA1-Digest: 8CRDZG/cqImNiBIgsWe3n0N8MUQ=
+
+Name: resources/web_clipper/data/popup.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: o4aIDVCep8myQiRm2wjHtw==
+SHA1-Digest: tiv5xCLBRJE9Tbj2UyHCDr4nyZg=
+
+Name: resources/web_clipper/data/post-clip.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 1xKzTTpMPRtzrtwhAeQ2zw==
+SHA1-Digest: yRm7J+oRrEcb1bUU9ptR+2y9cSo=
+
+Name: resources/web_clipper/data/post-clip.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: NTxFI25PMZpVWQ3AjPsp9w==
+SHA1-Digest: wMd91ZL+CfMdQk7lUt+XCU5vzUI=
+
+Name: resources/web_clipper/data/preview.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: XEbWK038JxoVGHDf+bbVQg==
+SHA1-Digest: 2CngYHFePTwAXwJOJJA8ONxFsLY=
+
+Name: resources/web_clipper/data/promise.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: bhTaYkx9FaRLRsUKMQCrSA==
+SHA1-Digest: 3wQtFU2nIA1O0i4Nijkxrxb7QnA=
+
+Name: resources/web_clipper/data/reformat.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: w3CEfVi0REavkg3nBoodOQ==
+SHA1-Digest: 9usV1IhqYRPLNMB+maCq1+HqYPg=
+
+Name: resources/web_clipper/data/reformat.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 1s4nb0IZKNK5+Cqosi13FQ==
+SHA1-Digest: p0Hcq+mOBDIsYPMd2pbhudRZH+Q=
+
+Name: resources/web_clipper/data/screenshot-tmpl.xml
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: AwAPcdoSOeWQOTSV+MkEOw==
+SHA1-Digest: McV3HROYz6MjchUl1jRaDZuhEEo=
+
+Name: resources/web_clipper/data/screenshot-toast.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 2e586ohsmnj1uQ7w6w+tdA==
+SHA1-Digest: u25p+udiaYq5ZVrMOMmEjiwxmso=
+
+Name: resources/web_clipper/data/shape-pane.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: KBk7iWcGcfg+Lk8zClfHyw==
+SHA1-Digest: nWir/qqBB3CqprZoVzckBOxLUGM=
+
+Name: resources/web_clipper/data/shape-pane.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: G/UVeea5Hk5meolY/AH7bg==
+SHA1-Digest: E/kpW/jq5hGBZe5qAdJaBhGPWVY=
+
+Name: resources/web_clipper/data/sim-search.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: bgsil8HHDxiBSrO9Bd3IeA==
+SHA1-Digest: SUc+UCIo7873sCgAWHK6Y5nb6IY=
+
+Name: resources/web_clipper/data/sim-search.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: RNl5isJH6wGKNGVSoeiGTw==
+SHA1-Digest: uD483dT1GojwATET0S6tMjXAT6s=
+
+Name: resources/web_clipper/data/sim-search.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: L57rLTkq+yi+QS7YTqiZWg==
+SHA1-Digest: R8wsaCjBIpp4FDHl/paiT65vBp4=
+
+Name: resources/web_clipper/data/skitch-runner.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: oVxsM3tSgc5C+AT39PPdug==
+SHA1-Digest: jNFutNI1ErUr6nHb6Mcb5D2AqfI=
+
+Name: resources/web_clipper/data/tag-pane.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: nUKIh8RFOPYQe52RUnln9Q==
+SHA1-Digest: NHzl5egC/MeQx+jomRsT5oYun7U=
+
+Name: resources/web_clipper/data/tag-pane.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: fFatxz0sRShrtpaXkpHtQQ==
+SHA1-Digest: mxrOB1z/o67ja5AmE4HA1Mrwr8s=
+
+Name: resources/web_clipper/data/tag-pane.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: u9vY/HzMSYPhnzDS0iYTOg==
+SHA1-Digest: 4TGV1SCRLNJ2GvuaE0OB1ydf3yU=
+
+Name: resources/web_clipper/data/tool-pane.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: cprpY5mskm5Prdf0zudkbg==
+SHA1-Digest: lXC5KuxVEsQmmwVzTNX2AylteLU=
+
+Name: resources/web_clipper/data/toolbar.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Aw/ADNDzy8ffKV3HOWgjmg==
+SHA1-Digest: xi1MNqt/j9IgMCC/nnKCVWcsbU8=
+
+Name: resources/web_clipper/data/toolbar.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 8QyXKKLBddN5g/sOp0qPVQ==
+SHA1-Digest: Ynp0JIk9rtnH6LZdSoei1/y33DU=
+
+Name: resources/web_clipper/data/toolbar.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: OJ1IKDKAKfOw7GrIJi+G2g==
+SHA1-Digest: ORP+SY+XrA0ixrrGS2/kDEDS+Jk=
+
+Name: resources/web_clipper/data/transform.xsl
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: CBc0cT9ESKv64QL9p1oS1g==
+SHA1-Digest: smwnKa/rbg0gSBmSUd1yC2y4x1k=
+
+Name: resources/web_clipper/data/url-preview.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: RO9AHhtrqpX9zqYft+f4Ng==
+SHA1-Digest: 8mtNTSM7UhkjEGsnOAt1zdnjthE=
+
+Name: resources/web_clipper/data/url-preview.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ilmVu+VHwDshu6tRIh1Tzw==
+SHA1-Digest: LSLPCgKmY+WL5iFyOidmLUtu8tI=
+
+Name: resources/web_clipper/data/url-preview.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: c4xtsgDDQjLTY7NhOLbnQQ==
+SHA1-Digest: HaL+2FSABdQ7oi9SSjyjv6FlMrY=
+
+Name: resources/web_clipper/data/widget.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ti+3AtrNQNojEe/n1r1fow==
+SHA1-Digest: 5GvPZ/nKHY7YjqwGGtDtjg969/w=
+
+Name: resources/web_clipper/data/widget.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: TJ8jn+/uHs23dh66owhvTA==
+SHA1-Digest: HNlSMvKLVDNp2Qf36AVrxoD0P1A=
+
+Name: resources/web_clipper/data/bin/mac32/libenbar_x32.dylib
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: fSRmxVqTcg1XPzZRLvOJBw==
+SHA1-Digest: cXBdhUhyo4bs5NMDn8SJdqTk64Y=
+
+Name: resources/web_clipper/data/bin/mac64/libenbar_x64.dylib
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: aMQRcMs3f/8uV8SOBSDYDA==
+SHA1-Digest: QoyWcASFbOD/iNlGQPyjKPGbtG0=
+
+Name: resources/web_clipper/data/bin/win32/mozclip.dll
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 6EWDXPuDIt4YVym70/PF0A==
+SHA1-Digest: 27Ud6EZiibB1vU43/GtEsI+bSLw=
+
+Name: resources/web_clipper/data/bin/win64/mozclip.dll
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: sPoj5zvC8J6TI4TUpiHPxQ==
+SHA1-Digest: uMlYI89px3Z3arYM67Gq8RGHdis=
+
+Name: resources/web_clipper/data/clearly/clearly.zip
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: KDvLR26nDnM7Vfbeo1kHjg==
+SHA1-Digest: N1HnjpBlkC3K1MC8LBxEsRVhPLg=
+
+Name: resources/web_clipper/data/clearly/css/base__blueprint.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: fyas+7qtU6gnTgrH8vXwYQ==
+SHA1-Digest: 6+hhm+EOfN820goYggabkYpvCH0=
+
+Name: resources/web_clipper/data/clearly/css/base__newsprint.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: udJLrZvgPlox6fYydZiIdQ==
+SHA1-Digest: 0qzAntwz6k8qWJvB1rQtlplbLqw=
+
+Name: resources/web_clipper/data/clearly/css/base__night_owl.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: lL/gxw+Bw/kLOawmHGo1ww==
+SHA1-Digest: bzPFWb7EUyLOjLELN/f0AUy/Ot8=
+
+Name: resources/web_clipper/data/clearly/css/base__notable.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: hSY3nAKZIFyq7aT17cpVrw==
+SHA1-Digest: uT+Dk3EEcrLe+y9i6a0tgNEFSHc=
+
+Name: resources/web_clipper/data/clearly/css/custom__newsprint.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: eRmKfwocJyT8gFiAZUbstg==
+SHA1-Digest: Glza/NfMnAv1x168VU8+SVo1Jvk=
+
+Name: resources/web_clipper/data/clearly/css/custom__night_owl.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ya+l3oRJo2yj800yrVxNLQ==
+SHA1-Digest: Kx30v2ymQxrkKgwIM80cxDwOM40=
+
+Name: resources/web_clipper/data/clearly/css/custom__notable.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: QunawYSojO9Xd4avCV9PZQ==
+SHA1-Digest: uhDBRkI0bOr/TWVEZdcPldfx0zY=
+
+Name: resources/web_clipper/data/clearly/css/style.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: PY44jXnnIc0uo/q5l8Cj/Q==
+SHA1-Digest: S0phosaFyccfpwmtSKJp4TtC2WY=
+
+Name: resources/web_clipper/data/clearly/images/highlight--blue.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ZnyzL5Q6k5tIaT6W0w3glw==
+SHA1-Digest: p29CVYz6OWQ6UJ/wb8ecJM5rjfI=
+
+Name: resources/web_clipper/data/clearly/images/highlight--blue@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: t34PwFKSFAw3pdqRQQrdZA==
+SHA1-Digest: dNL0IQG0O78lgGs8dOgk8EawR0E=
+
+Name: resources/web_clipper/data/clearly/images/highlight--cursor-dark.p
+ ng
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 0cIe59lTHOGTcwpkP4T0aQ==
+SHA1-Digest: f1x1DlpFc2sOwuTlHchYKOYCzJ8=
+
+Name: resources/web_clipper/data/clearly/images/highlight--cursor.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: A4FKVmI0Uol2ltq7bzr8SA==
+SHA1-Digest: w47BeI814Os8KPsf303G0GzViX0=
+
+Name: resources/web_clipper/data/clearly/images/highlight--delete-sprite
+ .png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: oOZCEAEpvNPejSXlY1xnWQ==
+SHA1-Digest: FXYiqUWpC+/mEVIcp//2KSZZhQQ=
+
+Name: resources/web_clipper/data/clearly/images/highlight--delete-sprite
+ @2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Q4O53+iaNh9CtrUZxzo5hA==
+SHA1-Digest: Z4og6ZcCAml3VnSgnyjXhcTOe60=
+
+Name: resources/web_clipper/data/clearly/images/highlight--yellow.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 5CfhlutXmXijZufT+2Hv5Q==
+SHA1-Digest: LBL5BW6u8ZQOKclWT2bM9Jq5mcQ=
+
+Name: resources/web_clipper/data/clearly/images/highlight--yellow@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: MQX/QJqraaOZs66oVp7OVQ==
+SHA1-Digest: 73SptA8S/H8To2kfQTudcFZnj4k=
+
+Name: resources/web_clipper/data/clearly/images/loading--background.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 37FtfZDTifr01S4vylXyvA==
+SHA1-Digest: Tsr8xMSdDjeh4lFA4BwfA6Zxr84=
+
+Name: resources/web_clipper/data/clearly/images/loading--background@2x.p
+ ng
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: A5D54oi/5q1wzaPqYfC59w==
+SHA1-Digest: z5Qyu8vz1mO+QN7LnM8mnDD8HpE=
+
+Name: resources/web_clipper/data/clearly/images/loading--big.gif
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: LjUOARfT3EmchSGBs8io/A==
+SHA1-Digest: ml/hYSLoMIOlLXkkFByErADK0JE=
+
+Name: resources/web_clipper/data/clearly/images/loading--big@2x.gif
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: c8xxWnTecXt4wuhJjPOz9w==
+SHA1-Digest: hoQ8M7M2kq5Zx/oTthclIwOgHc4=
+
+Name: resources/web_clipper/data/clearly/images/print.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: I40xoKSGuscUp/0F8MCIVA==
+SHA1-Digest: wRUUi1R9mINKcPvMiwjE/35dxJo=
+
+Name: resources/web_clipper/data/clearly/images/print@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: fQSbq5pklMCzang7Z7mA1g==
+SHA1-Digest: 748Cfu/I2+tT34mM9Spunnm5U/4=
+
+Name: resources/web_clipper/data/clearly/images/themes.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 3dMZGCEQgHybjhcn5rxL4w==
+SHA1-Digest: kN/ekmLZFYXfS8K7du+NfQ3UKYA=
+
+Name: resources/web_clipper/data/clearly/images/themes@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: p9i15wCa+NGw8j8DeHIx5Q==
+SHA1-Digest: 2Is4d90FPLo6FJaI5OmnNyzFSe0=
+
+Name: resources/web_clipper/data/clearly/images/tts.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: krLA/jtTIW9JfyT9vYcHog==
+SHA1-Digest: HvoB5OB0M8f/QSgmiDAF/mF73FM=
+
+Name: resources/web_clipper/data/clearly/images/tts@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: dcfP+RYtiCG1vLICUxJ9iA==
+SHA1-Digest: oe9f13EtaGO1P3kxYjpstpDsmoA=
+
+Name: resources/web_clipper/data/clearly/js/detect.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: S72VBhMadWe4pE86MQGucg==
+SHA1-Digest: Bx5/wGy5I/ZHd7QSsr/V2HBEIxU=
+
+Name: resources/web_clipper/data/fonts/caecilialtstd-bold-webfont.woff
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: XW1SrMX6nJDELko3i3FmKQ==
+SHA1-Digest: LReIG53EN9zmkA+rbXyJ081FNGM=
+
+Name: resources/web_clipper/data/fonts/caecilialtstd-bolditalic-webfont.
+ woff
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: jSVLaxEBL2q24OA3MNenzw==
+SHA1-Digest: hHmvwzteH+DiIrDTkd0iHG+VkXI=
+
+Name: resources/web_clipper/data/fonts/caecilialtstd-italic-webfont.woff
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Do4JAK2YdRHthteuBpAAFg==
+SHA1-Digest: mNCMTDveDUFLHoadAq3w/jI/ic4=
+
+Name: resources/web_clipper/data/fonts/caecilialtstd-light-webfont.woff
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 47nUeUQRgkUfwirSw8IzzQ==
+SHA1-Digest: kF8AdXnodQFf2B01psleXKFfVBU=
+
+Name: resources/web_clipper/data/fonts/caecilialtstd-lightitalic-webfont
+ .woff
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: C1QCSitHYxLj9uWmWqx8uQ==
+SHA1-Digest: rRYfBIplxiR30wuK60/ifx95CB4=
+
+Name: resources/web_clipper/data/fonts/caecilialtstd-roman-webfont.woff
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: u4lyPdYafF3noRC6jbfX6w==
+SHA1-Digest: YrMYSIY4F/779X710hT9gYuq5WQ=
+
+Name: resources/web_clipper/data/fonts/GothamSSm-Bold.otf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: SQIt8wl0K9AMYqKgDUh4Nw==
+SHA1-Digest: COPjTcrPCAvN+KbTGWBbTZbMf2U=
+
+Name: resources/web_clipper/data/fonts/GothamSSm-Book.otf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: yYGFgICKvgVfv35MVNO57w==
+SHA1-Digest: /Mfp1e2jkdIgb6DY7SGzNPxCbXU=
+
+Name: resources/web_clipper/data/fonts/GothamSSm-Medium.otf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: V1XXc18ZPC7PXTdCcmfOSQ==
+SHA1-Digest: jwJm84lm0qvcPwP/00+xAHYmXzg=
+
+Name: resources/web_clipper/data/images/arrow-right.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: PYwMsQQMAUMOGSxlNv8cIA==
+SHA1-Digest: MRTb2yqfyG5fWyM+16/NhDCfmmQ=
+
+Name: resources/web_clipper/data/images/arrow-right@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: T/4YpWpRgbo4UYykL1Lgcw==
+SHA1-Digest: 8bxOjVi+kHIw/XOc7F+nUoYsoXk=
+
+Name: resources/web_clipper/data/images/auth_error.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Xtaj7GKP8xH/QcbUDJ6ViQ==
+SHA1-Digest: CaUg+uhzWW2ZeHfAvEljMEeZZ8w=
+
+Name: resources/web_clipper/data/images/auth_error@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: n9RLol9L8irHMTQlFFygYQ==
+SHA1-Digest: UwHbuSDIjf/pxN1EaQIZM8zWN7c=
+
+Name: resources/web_clipper/data/images/back.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: V14R1kIMMWacS+lG+ndRQA==
+SHA1-Digest: 0z5H8ADshlObMu9qB3k1hhfukxw=
+
+Name: resources/web_clipper/data/images/back@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: qdZHay8AnylL07FXWGvD5A==
+SHA1-Digest: M7V7J9y9gXG62EufqhEyMTXZrYE=
+
+Name: resources/web_clipper/data/images/bg.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: lW3lpFecbGPP+DObpqqLXA==
+SHA1-Digest: bOeufnr0wWyhDv5g2nYb1f5MFak=
+
+Name: resources/web_clipper/data/images/bg@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: tE8vekr0qE2GHQotG7P49A==
+SHA1-Digest: WI+GD9yCPJuugkCxXtinhwiOCN0=
+
+Name: resources/web_clipper/data/images/business.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 0pkWDV0i+n/Ijjjp/d0ZvA==
+SHA1-Digest: ZUlaNcRwskpZREl864GV927Y23E=
+
+Name: resources/web_clipper/data/images/business@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: mt9MU8WGpO22X/++i9f3Ng==
+SHA1-Digest: nhDu3qKmY+DMIntAr+turw12zgg=
+
+Name: resources/web_clipper/data/images/business_dark_icon.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: GzSuBfs/YkgUcE3kcpGnEA==
+SHA1-Digest: X2bOuPJ811V8yUK0oEfAdonHYlU=
+
+Name: resources/web_clipper/data/images/business_dark_icon@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: /W19uwofLoYUiMxLZ+NxZg==
+SHA1-Digest: afao5YEBTUNSVw6HqnG1k8XurLE=
+
+Name: resources/web_clipper/data/images/business_light_icon.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: t0KCeNE9BoAebNeUo94J3Q==
+SHA1-Digest: G9iQ2XLBNxjSXzFyN9bXBxcrsFg=
+
+Name: resources/web_clipper/data/images/business_light_icon@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: sUyV95kfDr5BJV5UkkoHrA==
+SHA1-Digest: qS+31R9+FyMT6MyVlMWA70tB2X4=
+
+Name: resources/web_clipper/data/images/checkmark.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: a43pls+Uqc0Y/uJWxLVqrg==
+SHA1-Digest: 9ZAQ55y49YyvAasoY9CDyaSOqwI=
+
+Name: resources/web_clipper/data/images/checkmark@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: N2/m1LsH2pHNHTyCSMn+LA==
+SHA1-Digest: s+yShxQ1OV7ZXexVW+fWn3qstkM=
+
+Name: resources/web_clipper/data/images/checkmark_green.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: vVPOcQ4uM0M62uXn5uPrLQ==
+SHA1-Digest: JVUEuTW25UIRFQd6R45uOYmNkDg=
+
+Name: resources/web_clipper/data/images/checkmark_green@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ERkzeRmmXNsN+zJjG+s2Bw==
+SHA1-Digest: n6RMVumUFsxB7J+uBWvoWZfeXCQ=
+
+Name: resources/web_clipper/data/images/checkmark_icon.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: tL6+jSK0EGz5QmFIQGHcyA==
+SHA1-Digest: AgHMec+GCQoYrOMxDhnfKSDj+JU=
+
+Name: resources/web_clipper/data/images/checkmark_icon@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: wtqOI+2Mrv9XdjIBX4i0ww==
+SHA1-Digest: N09xTJGQc3je7lb2jswgp+WL6io=
+
+Name: resources/web_clipper/data/images/close.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: JUVDPzP0HIU89FOOSntu8g==
+SHA1-Digest: VF1bfDz8/6CAWwSmSKfGXAXywTE=
+
+Name: resources/web_clipper/data/images/close@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: gpUeY/U0bvUHr4NTPYUsgg==
+SHA1-Digest: aD50kCNzJQXDXC+JlrVfUoIg3NY=
+
+Name: resources/web_clipper/data/images/close_icon.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 61uKVvm4FVm1irh3E5ammQ==
+SHA1-Digest: DKlIIwdn9vw+90vfNFh1/uM/YDM=
+
+Name: resources/web_clipper/data/images/close_icon@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: FtOqYLlCMNaW1RWYERx8ag==
+SHA1-Digest: KP9NZGqKUJojEKKp2KGWOkinQqk=
+
+Name: resources/web_clipper/data/images/close_login.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: BNvwRsy4/MfezWljU2JiiA==
+SHA1-Digest: HezaLDaKwQBB0aBAgeh3tmZEbbs=
+
+Name: resources/web_clipper/data/images/close_login@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: A9AIjywK7fYzYhU84UlP2w==
+SHA1-Digest: wzTBI2Q8v8vbI+P5DpdpeSAN/5Y=
+
+Name: resources/web_clipper/data/images/dot_gray.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: jeSEzRF5uQD/OgSIu5dsaw==
+SHA1-Digest: i5Fk1x8LyVsdLpnchXzMTtv5plk=
+
+Name: resources/web_clipper/data/images/dot_green.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 49V4rh7CeZpoEDI/Ln7vhQ==
+SHA1-Digest: ruNKvAAXXq8fhm3xmIAdlScjftY=
+
+Name: resources/web_clipper/data/images/dropdown_down_icon.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 4hASJXkt0j0r2qOprk0d9g==
+SHA1-Digest: joPTg1mzbP/3yYzkXSLR4c4h/p4=
+
+Name: resources/web_clipper/data/images/dropdown_down_icon@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ei3eyUhaIXtqyKUcNNHnug==
+SHA1-Digest: ImEvmXe2uW4FVPP31y0X8FaHRzA=
+
+Name: resources/web_clipper/data/images/dropdown_up_icon.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 7kdS5Aw1icLxlP2x3Kzb5w==
+SHA1-Digest: NeGksv6z2JXXgkbykXYj6dBscKk=
+
+Name: resources/web_clipper/data/images/dropdown_up_icon@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: T+/HqOS2IK2+xRDs53JAaQ==
+SHA1-Digest: X+wG2wgZxE1QPi1V0/V5gyKKQK0=
+
+Name: resources/web_clipper/data/images/favicon16.ico
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: GEsX19y2y520s8VEE1PeBQ==
+SHA1-Digest: g6LyWvqk37lEqSq8Bu+l39c3Tkk=
+
+Name: resources/web_clipper/data/images/favicon32.ico
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Q59ZOXTqQKBOc8cXEuRqAA==
+SHA1-Digest: 2A515OSg4s+hdr8K7RVPSma9ans=
+
+Name: resources/web_clipper/data/images/forward.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 1DnXR1P/Zz4B/UBXqegnFw==
+SHA1-Digest: pmiiubzN3UAuhej5SMP4BUjFyPY=
+
+Name: resources/web_clipper/data/images/forward@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: IIiw/e20QQitNFQL+rUyOw==
+SHA1-Digest: +xyeKjmCnpBgzrKSC2o6W8OM1Mc=
+
+Name: resources/web_clipper/data/images/groove.gif
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: OjkIAjpzR2W6cK3AGrE19A==
+SHA1-Digest: pVPuYLMcqk9tBCPF+tXTAHa+cRk=
+
+Name: resources/web_clipper/data/images/linked.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 30lP4LZ1ylOKEoP3Q9YoMQ==
+SHA1-Digest: pn6Xxv69zt0Ge12v7wnDk9qqyR8=
+
+Name: resources/web_clipper/data/images/linked@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: v9coodSmWa9J0+r/UBvyLw==
+SHA1-Digest: iYOkWlXe693KUYhsRFXtkF6m3B4=
+
+Name: resources/web_clipper/data/images/loading.gif
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: t3hvofmtkv5ChtmcaeXFkQ==
+SHA1-Digest: y1OeHO0zgOT0YuX9bF5UScQthik=
+
+Name: resources/web_clipper/data/images/loading@2x.gif
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: exxSofVBt4VobFVU9cffdA==
+SHA1-Digest: lrs8Delm6MTMAcxhAF8NNzYlQhE=
+
+Name: resources/web_clipper/data/images/loading_gray.gif
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: apj7QIS1DFIX7qtz2zq1rA==
+SHA1-Digest: fS9VLHiO1Iz6XsCG4B7uwI0gNqc=
+
+Name: resources/web_clipper/data/images/loading_gray@2x.gif
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: PdeX+NYM6S8cet7Su6rP7g==
+SHA1-Digest: Dm2VRtudrPDljQwqytU0n8zDNUQ=
+
+Name: resources/web_clipper/data/images/logo_registration.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: RtunJP3u3GyUAydUAqt2IQ==
+SHA1-Digest: jSNpfGSvGoFOZUKSVQiq/IvlNuM=
+
+Name: resources/web_clipper/data/images/logo_registration@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: J/psG+tkB+SrffyAXVb1Uw==
+SHA1-Digest: RWAhZkjDxLEqIuZKWxXVPjxJyXM=
+
+Name: resources/web_clipper/data/images/minus.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: TLT4+HK+mhY28LgRhxuRIw==
+SHA1-Digest: ksQRvT0X6vPpuc0r8OZW0mD0mHs=
+
+Name: resources/web_clipper/data/images/minus@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: xz8WEhHrfTJa6PoCHNNopA==
+SHA1-Digest: xyqtYBCqodEu8bKDr1mdPTTXgSU=
+
+Name: resources/web_clipper/data/images/notebook_business.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: WCkaAN2IK4UPp9Ymf9F3/A==
+SHA1-Digest: a+aqba9GWPMfY/qEk2R0bt5etA4=
+
+Name: resources/web_clipper/data/images/notebook_business@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: He6XbHxzPaGXU3mM2NymVw==
+SHA1-Digest: 6QX4B9qQhV4veGnPFEWWh53iE6A=
+
+Name: resources/web_clipper/data/images/notebook_icon.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: /vBx84PCT531mlscsS7d6Q==
+SHA1-Digest: dt55Bh6UZIUr47mCKc1keuveszM=
+
+Name: resources/web_clipper/data/images/notebook_icon@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: WxVLO9+OnowvjwYBf7PE9A==
+SHA1-Digest: 2kN7C421jJWjrM+Ei8jFuNxUG/U=
+
+Name: resources/web_clipper/data/images/notebook_shared.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 3Tmr9aTP5lnZMI9lKtde7w==
+SHA1-Digest: St3DynZS2y4g1p+6fX8HxaPl8k0=
+
+Name: resources/web_clipper/data/images/notebook_shared@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 2E9QGyB9HHMz+3gN5mJZTQ==
+SHA1-Digest: qEEehtX52MbP05ttMLkDDN3sd8o=
+
+Name: resources/web_clipper/data/images/plus.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: RHMw2VSMcxaoGEDdY7Ll2A==
+SHA1-Digest: Yh4I2d+FQhrOpNZjK4gc8mSjbTY=
+
+Name: resources/web_clipper/data/images/plus@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: XKECFipZ+ywp8Hj6/6GpDQ==
+SHA1-Digest: zqtc+SA0cJbbU2aOwdpmLtDD+2A=
+
+Name: resources/web_clipper/data/images/reg_ad_icons.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: j6eIGHG1w6c51jbkJ0xaJw==
+SHA1-Digest: ZlrNSqkP0wR9OIT2QU3y+yQ7PHs=
+
+Name: resources/web_clipper/data/images/reg_ad_icons@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: C+AHsxcANjSa0SUuj5g1fA==
+SHA1-Digest: +puiB21mO00DztMUgnP8YES9o6k=
+
+Name: resources/web_clipper/data/images/reg_logo.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: MgV1whXP8LxcAgkjTTAudA==
+SHA1-Digest: TwgWGkJzp6dGsKY5qYOAfYvbt9U=
+
+Name: resources/web_clipper/data/images/reg_logo@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: r7ISdyTKtWjXXonJX8XRTg==
+SHA1-Digest: zv3oxtGk33nIDxtD5tK14RPBxf8=
+
+Name: resources/web_clipper/data/images/search.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: BUs3vfi3t61xFS+/PNBhfw==
+SHA1-Digest: BG6CpXPzarUHHXJ8zgIgCgDyUEQ=
+
+Name: resources/web_clipper/data/images/search@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: UQkPf3wxldL0i/eftEIJkQ==
+SHA1-Digest: cQ6eDVcvXb5T/lV/7BxCaeqTyFs=
+
+Name: resources/web_clipper/data/images/search_cancel.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 1e+R8I2UtbibQb8eHVzgWw==
+SHA1-Digest: gU/EwIgnOYOU9unwwPY/dKgVIe4=
+
+Name: resources/web_clipper/data/images/search_cancel@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: hvdr58xGeNhQ+kHrwXp+sg==
+SHA1-Digest: bc8dDFUm74pD/SH9FqCtdiJ8XJw=
+
+Name: resources/web_clipper/data/images/search_icon.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: FbFwT2gkkMcghbtQFYCmIA==
+SHA1-Digest: /HrDmQyGp9rG1A6+gXWnnm9hJWM=
+
+Name: resources/web_clipper/data/images/search_icon@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: rOc4fs28BCulpQYCfHpvzA==
+SHA1-Digest: vBzxRPFy091nVoA6hrlRvu3Lzco=
+
+Name: resources/web_clipper/data/images/settings_icon.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: lKeR0K3pb66K/g2ljcAcUg==
+SHA1-Digest: l2qxJmDFHBb7h6mxkIDo0MJL0KI=
+
+Name: resources/web_clipper/data/images/settings_icon@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: uTDrLhYZI0uuvZLV56eZgA==
+SHA1-Digest: CXFqztF9DApuYfvQhSWHjlV/9/0=
+
+Name: resources/web_clipper/data/images/shared_dark_icon.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: NFIxo2GyQzeRXTcmub9fpg==
+SHA1-Digest: MNFBs+O92uhIGHuXskoTv4lEde4=
+
+Name: resources/web_clipper/data/images/shared_dark_icon@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: s7p/8ooyOd0gGb5P84sC2w==
+SHA1-Digest: R8k19iGfKZZ8sHgJZ5G8pERSSEM=
+
+Name: resources/web_clipper/data/images/shared_light_icon.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Q0B2x8qEM5hRe5mVfJn1eQ==
+SHA1-Digest: qwkerfJpdq/ZhyUYoFTRJnKNgAk=
+
+Name: resources/web_clipper/data/images/shared_light_icon@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: AbiPjd3CS9FqzUczsxTeBw==
+SHA1-Digest: HGVfFhf7NjUOPe6b4FMprHGkWPE=
+
+Name: resources/web_clipper/data/images/sim-arrow.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 6CjgRh+f0+GPdh1KAtedYQ==
+SHA1-Digest: rPLoSzME9TqnuoGlUbr+9CuOHtw=
+
+Name: resources/web_clipper/data/images/sim-arrow@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 6AHjqsBgjEWGw8pqaTFqfQ==
+SHA1-Digest: mpII23c3B4wHEz8E2WfxlqcBYRs=
+
+Name: resources/web_clipper/data/images/sim-close.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: vAh9yQIsYV+bTP+r/BnM+Q==
+SHA1-Digest: OuD2LgvWenGTo7+VZneCSOzovVY=
+
+Name: resources/web_clipper/data/images/sim-close@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: hCsqTH0BBGT/JMP37CkNTQ==
+SHA1-Digest: FppOtALRpsfFMfgiwfjB9V/njfs=
+
+Name: resources/web_clipper/data/images/sim-loading.gif
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 7xxV8Nw9GihlTBB0ZKMjjg==
+SHA1-Digest: TKpD6JWrewfKl/ZWvC2WpXQaqq4=
+
+Name: resources/web_clipper/data/images/sim-loading@2x.gif
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: qD1ZycmJ/yj5PZZeq9+/dQ==
+SHA1-Digest: hHdLd+ii9x07oObeJq6CqKY1ZCI=
+
+Name: resources/web_clipper/data/images/sim-webclipper.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: aHcj1YXckRqhhA6LTVwkWQ==
+SHA1-Digest: FiljG8Yd2eMqR84iPUEc//QzY4E=
+
+Name: resources/web_clipper/data/images/sim-webclipper@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: e7Pn6uZLf3Oo6BzmxzXjGQ==
+SHA1-Digest: kCEd5KBDi/+cEfh2+iNsYfmjbJ0=
+
+Name: resources/web_clipper/data/images/sim-YXBJ.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: wrtrA1Qngwfq4H5kFp4VLw==
+SHA1-Digest: zhpUyAyIclpzMB6D4/lJVQ9W0gM=
+
+Name: resources/web_clipper/data/images/sim-YXBJ@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 9ReZhpsSSHBpSG7V54+gxg==
+SHA1-Digest: yG7hgxnDRkWnZzzRY8Wew98nIJk=
+
+Name: resources/web_clipper/data/images/stack_dark_icon.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: +xfP69AyBlqmwS1HBfxVfQ==
+SHA1-Digest: pWLhkpuG01ZzpgMJwU/DqWhHWWo=
+
+Name: resources/web_clipper/data/images/stack_dark_icon@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 73/Huq53VogZAxHkHQoXsA==
+SHA1-Digest: exSlHbiY2LkHrvNIwLew8ls0coU=
+
+Name: resources/web_clipper/data/images/stack_light_icon.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: a7vZB9H+VL2+nTh3cxZrfw==
+SHA1-Digest: nkvEXxSRZP3Lb0ZPP7DnrXOonYM=
+
+Name: resources/web_clipper/data/images/stack_light_icon@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: smCtcGKgOwBS3hbpOHFgFg==
+SHA1-Digest: CZbLgE0d3ULXRN86MC0vfccLpBI=
+
+Name: resources/web_clipper/data/images/wc6.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 1QS2wP4z9nwJtASlj65Vvg==
+SHA1-Digest: e/RSSqo5+JdVa/ULTGtNBr85H7A=
+
+Name: resources/web_clipper/data/images/wc6@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: tXT2Qpgrl6+/GriHK7EvMA==
+SHA1-Digest: 91PBfDafaKk5Ktbrk812Mjsm4FA=
+
+Name: resources/web_clipper/data/images/wc6_close.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: SuPyuXkcRcwwVbzwkmbABA==
+SHA1-Digest: medwIfonAQf5kVKpoNntS46SeHM=
+
+Name: resources/web_clipper/data/images/wc6_close@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: /7oRpP5Nvyzvla/O/u73sw==
+SHA1-Digest: 7rrWOtNT9G0PaF1gK4r9yz+g4nE=
+
+Name: resources/web_clipper/data/images/wc6_signin.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: VpQgvLh0BzWGC7zKDI4GSA==
+SHA1-Digest: VXUEd1jXa+AuCoIqwf3wpzj1bRA=
+
+Name: resources/web_clipper/data/images/wc6_signin@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: qbQnHSdYVGR1HCwvFg+kEw==
+SHA1-Digest: ZuOWVVyQjnmfL1aunijtaAPoWME=
+
+Name: resources/web_clipper/data/images/wc6_update.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: RNePAQ3HVEtxUp0eS9s3dg==
+SHA1-Digest: hkh5a96hnuoBKd/Z65jAWZDUXM0=
+
+Name: resources/web_clipper/data/images/wc6_update@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: fRo0hjrK0vnCHQi3Hfo5QA==
+SHA1-Digest: DbtVeuOerGi27WG+uzEAk2Ocj30=
+
+Name: resources/web_clipper/data/images/wc6_update_19x19.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: gDi8leqvuIUn7PKDWz6kXQ==
+SHA1-Digest: B/h5fQNQ6yfWASv71QOkjE06Gng=
+
+Name: resources/web_clipper/data/images/wc6_update_38x38.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: mMGGC1jPanyBJSPtnXGc3g==
+SHA1-Digest: Wwty7BIprM0GTuWQFoB9uQyLRWM=
+
+Name: resources/web_clipper/data/images/web-clipper-app-icon-48x48.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: qNKRH10/pgs3ubvzaWpZ8A==
+SHA1-Digest: arFvRjW70lko0WNZYv0McHmVAWI=
+
+Name: resources/web_clipper/data/images/web-clipper-app-icon-64x64.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: fUkC82Pd7wUQ3iutXBCX8w==
+SHA1-Digest: T+j8os4kWyu6BgGNHkRTCvqDlp0=
+
+Name: resources/web_clipper/data/images/YXBJ.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ptl32zcWL3XgyB7eYGI91A==
+SHA1-Digest: zGSYn0198BfF8w4j2gVgoGQ75pk=
+
+Name: resources/web_clipper/data/images/YXBJ@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Y7AZ8mNdg258fZzLLrILVg==
+SHA1-Digest: Objh5BfqX52iKmfX7lvO+N+XmUw=
+
+Name: resources/web_clipper/data/skitch/images/arrow.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: PMPsyI3qg/Hw/7/pFXUEow==
+SHA1-Digest: 78QrSl5I3HiVNs0k8bU3ykAm7IY=
+
+Name: resources/web_clipper/data/skitch/images/arrow@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: gSZltfITdlF1bkpJNphEUA==
+SHA1-Digest: fkG1UhJ9SFuBkUf8b27Qy86YJz0=
+
+Name: resources/web_clipper/data/skitch/images/arrow_color_icon.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 9dlaSZ1EStpzyD9mQ7xeFA==
+SHA1-Digest: fa/avrWa1zrp2ZG46svZSmjgdD4=
+
+Name: resources/web_clipper/data/skitch/images/arrow_color_icon@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: g99bWqo1ZzHHdjpmbZat1A==
+SHA1-Digest: +1zG+N+p1bYsNGu0ueU3ZzpBUOI=
+
+Name: resources/web_clipper/data/skitch/images/arrow_icon.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 08vMFDYrpr6Vt0mtKzdxKQ==
+SHA1-Digest: sBiUMIkuVu4FxRlidhXX8mguQ34=
+
+Name: resources/web_clipper/data/skitch/images/arrow_icon@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: mWJSHfO+qzQ/+S0wPRcMXg==
+SHA1-Digest: uEB/jCYdT1D6ZXV5tYJxq4HzNJM=
+
+Name: resources/web_clipper/data/skitch/images/black.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: mGoFeaDlMYdSjcr38hmP1w==
+SHA1-Digest: HSKCB4lyFTz0Asp8TQWV30IINFI=
+
+Name: resources/web_clipper/data/skitch/images/black@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: EC5gYlJkAWMb8Qsdiqf0Lg==
+SHA1-Digest: 1DvqChdwpy0mRSOyxumFnqbcags=
+
+Name: resources/web_clipper/data/skitch/images/blue.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Wr693cMtQWP8IgfOBV0FMA==
+SHA1-Digest: P/d4QbuJfwGwAEJtRaVS38S6n9U=
+
+Name: resources/web_clipper/data/skitch/images/blue@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: vp4f75Mx9uMLg22HcjgKAg==
+SHA1-Digest: Kh4m5FqHyyXmC+gra7f1h5A2AeU=
+
+Name: resources/web_clipper/data/skitch/images/circle_icon.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 1ecu/osmu3NXBh6hwuutaw==
+SHA1-Digest: OFrOtNEkwbTlaDKfcHZWRP5YGz8=
+
+Name: resources/web_clipper/data/skitch/images/circle_icon@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: EMys+YEdPASSlNJDc7dZqA==
+SHA1-Digest: MmM25H+0DK3q8r0T+hZDviwlpSY=
+
+Name: resources/web_clipper/data/skitch/images/color_black.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Krkl6hS5LT/eaBiyrsxR6A==
+SHA1-Digest: bj7JsSHcZZKEGmFQD7mA8K8WmFY=
+
+Name: resources/web_clipper/data/skitch/images/color_black@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: LUR4AqAK7VDGbRu9KNEalg==
+SHA1-Digest: bWbAf2WKPXgFPmKeWx9e5B/ICkA=
+
+Name: resources/web_clipper/data/skitch/images/color_blue.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: qSPOv3f99p2xBIXf+HsRIQ==
+SHA1-Digest: Cxk69x42BeXxSr78wXjd4X9gN+8=
+
+Name: resources/web_clipper/data/skitch/images/color_blue@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: qvABu8f0iuKddyGNKQeE7Q==
+SHA1-Digest: n9XkKuRIjZQ2XNG6LoFvwuJRQ4M=
+
+Name: resources/web_clipper/data/skitch/images/color_circle_icon.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: +cLT1AEmR7lP/c1if2a4AQ==
+SHA1-Digest: Yc0e5bFSlhcksH/T9aGDGLrYIDQ=
+
+Name: resources/web_clipper/data/skitch/images/color_circle_icon@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: QmafkB/G4/RdEcOJMbSRyw==
+SHA1-Digest: 8YNe8CyXSBuABggg1dIbRhdUVAM=
+
+Name: resources/web_clipper/data/skitch/images/color_green.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 1/5r/QMlC/vnXbkKQHL0AQ==
+SHA1-Digest: kNNH9n56s4fGU4gUmdbe0W6eSiw=
+
+Name: resources/web_clipper/data/skitch/images/color_green@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: h9BTWcdVG/YDJd4TrKHlTQ==
+SHA1-Digest: FxWyj4DsXVvfljEkSKnDK1Svv1U=
+
+Name: resources/web_clipper/data/skitch/images/color_orange.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: q9bti9t84BXD1upzjqZvjw==
+SHA1-Digest: s0+59wxayfwkL7gKf0ijokBgAys=
+
+Name: resources/web_clipper/data/skitch/images/color_orange@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: lUI979KlKVVggPVN4pJEGg==
+SHA1-Digest: y1WM3pfUuiN1xS0549HRSd5uZfQ=
+
+Name: resources/web_clipper/data/skitch/images/color_pink.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: A52i9LwBVXI+0s7KfHt/ug==
+SHA1-Digest: w8ixm7/Cq4jwAW+8w1Sl2cX37Vw=
+
+Name: resources/web_clipper/data/skitch/images/color_pink@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ElQ/62nXjgpTWtPh7VnR+g==
+SHA1-Digest: hvSYy6wFnn2UWBS/sJoJCdSnYrE=
+
+Name: resources/web_clipper/data/skitch/images/color_red.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 6J0AUBxtyoaOJZ1qPDiX7Q==
+SHA1-Digest: rVbkw9lozGvIY24zsIIRXGdxTB4=
+
+Name: resources/web_clipper/data/skitch/images/color_red@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Yd1jC1Q5K9STP2ntfHH3HQ==
+SHA1-Digest: 3ytnh56it03ivTrOHjEN306HWbE=
+
+Name: resources/web_clipper/data/skitch/images/color_white.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: bcCDM4/zAtHYqavOCg6pYQ==
+SHA1-Digest: xV7Cm2c7Jamh8Hv/uClwIY2aqdo=
+
+Name: resources/web_clipper/data/skitch/images/color_white@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 0CQXm/fItxLNZCh2+F/seg==
+SHA1-Digest: r2RoKXXA5RRgph7iEkLz4rUOmoM=
+
+Name: resources/web_clipper/data/skitch/images/color_yellow.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: YLmH6vtdwBBPrVlyomgUFQ==
+SHA1-Digest: m97j5FZb82IHD6+iB8dxSsyZVIQ=
+
+Name: resources/web_clipper/data/skitch/images/color_yellow@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: N3fcTwc8cpH0yVxR8iZjpQ==
+SHA1-Digest: X2j75dHFjpnhxT4durIjbNF+3kE=
+
+Name: resources/web_clipper/data/skitch/images/crop.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: +zrZp9vuPW0E5UcHDWBtDQ==
+SHA1-Digest: l/l5H8K9+ZlEKDF6w3yB2tAuPK4=
+
+Name: resources/web_clipper/data/skitch/images/crop@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: QsAK5DHYNANfSLBVdmElzg==
+SHA1-Digest: 8+XbjL6wIqQ6qH+XxJU2t2TfdCU=
+
+Name: resources/web_clipper/data/skitch/images/crop_icon.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: /lR+fppBQNDIwFr2Kx1S8A==
+SHA1-Digest: 0zogXtnOlYWO6Hp6nXkiVkfTbNg=
+
+Name: resources/web_clipper/data/skitch/images/crop_icon@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: XGj5k7OO3N1fmBnJhCdgPw==
+SHA1-Digest: 6HV+SRdfxIuU0j6fOdqiDrUMDfc=
+
+Name: resources/web_clipper/data/skitch/images/ellipse.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: xlcBfpymlZZgMxld7rpcHw==
+SHA1-Digest: 5SCsi/N62xRfBFX5dRpu1aujfOs=
+
+Name: resources/web_clipper/data/skitch/images/ellipse@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: MO7IWKEY5oGlH5CZA4TGIQ==
+SHA1-Digest: 68q9rIoPIoOnMycALtxLfIYa61M=
+
+Name: resources/web_clipper/data/skitch/images/expand.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: dc7k5U4LrIxdU7oFYa5CvQ==
+SHA1-Digest: DSEWDGKFGfSuxVz3VoRx1o6Cqmw=
+
+Name: resources/web_clipper/data/skitch/images/expand@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: QIxzIW42Yfwwt8XgDFbXIA==
+SHA1-Digest: 9p+HvIqnmqPY9X/DPExFW6VA4Hc=
+
+Name: resources/web_clipper/data/skitch/images/green.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: RHDbI/0UxZMjnJ+YLn0ZOg==
+SHA1-Digest: EDHtZEkpN5GvRlo9Gfr0vAbesXE=
+
+Name: resources/web_clipper/data/skitch/images/green@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: nEpQ2PE9q8ix2yY3XAaJRA==
+SHA1-Digest: BtE3YO44Y19qZQ8dcaS3oVPdAsk=
+
+Name: resources/web_clipper/data/skitch/images/highlight_icon.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ztlAjweKJxNTwvrrRXCqgA==
+SHA1-Digest: PDxO00VV9mRaqafgB5WyZuqis+k=
+
+Name: resources/web_clipper/data/skitch/images/highlight_icon@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: GbkJC+jihfVhWWJxuX51RQ==
+SHA1-Digest: 8T5nX6CU6bzTz4je7jVeiTmrZ4s=
+
+Name: resources/web_clipper/data/skitch/images/highlighter.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: zui+VdVK5gjvf5pzRVoW7g==
+SHA1-Digest: +M8MbI/N+DhS5BBbqU4UXYLew3Y=
+
+Name: resources/web_clipper/data/skitch/images/highlighter@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: XzhFWrxS2HSGTgAwtyag2A==
+SHA1-Digest: R6vQcAnghb9VMm+HkuppP0IHly0=
+
+Name: resources/web_clipper/data/skitch/images/line.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: uVVkYGoEZI1+BcqHj9yG8Q==
+SHA1-Digest: pmwUQilxDw55AobUhOp4xhLdEaA=
+
+Name: resources/web_clipper/data/skitch/images/line@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ekrr2TwYHcOCCIs3mKpUlg==
+SHA1-Digest: FsMbIr86sq5XIG7pBn3rBVGAHgU=
+
+Name: resources/web_clipper/data/skitch/images/line_icon.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Jj00/vowjZwLhKinWxyZog==
+SHA1-Digest: DuWrBRcQiK7H5MMS06vNpM0M2sQ=
+
+Name: resources/web_clipper/data/skitch/images/line_icon@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: FtURnmoZodApU79eGKDEPw==
+SHA1-Digest: 5Acb0X/189LO/67UvZ0tX8e+Ahs=
+
+Name: resources/web_clipper/data/skitch/images/marker.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 1TRGeMPHlVTppAgiKI431g==
+SHA1-Digest: UzoMIMxG0Qtmr9dgWbsgxjxYaOw=
+
+Name: resources/web_clipper/data/skitch/images/marker@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: jwgytobXR5A5cl7ZgBpTyA==
+SHA1-Digest: LO53iwUlF0JFp5/F8QP5dnv2en4=
+
+Name: resources/web_clipper/data/skitch/images/more_icon.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: CToIzM7CZnJ2rd3vxS4RvA==
+SHA1-Digest: muQJ/X8R/Pii7Y9nHMPe2zUzMdc=
+
+Name: resources/web_clipper/data/skitch/images/more_icon@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 3AKUclpVi5z7LPi1Z9gN2g==
+SHA1-Digest: Ko5DyoMjfT5XZPJ8Wmf6IVIFDd4=
+
+Name: resources/web_clipper/data/skitch/images/orange.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: QW3wfc1mJkT95HSjCn53Qw==
+SHA1-Digest: hPLlkMSdcTtRU8bIbNZW9/edSJI=
+
+Name: resources/web_clipper/data/skitch/images/orange@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: hP3aG1XfPPs0jKrl0S/k/w==
+SHA1-Digest: g1TeAWvwxNdl0fzhsEVgZeaYHOU=
+
+Name: resources/web_clipper/data/skitch/images/pen_icon.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: mMxkf3e/1XKmMpiHLiyH4w==
+SHA1-Digest: r0ZYnU7YaYzNM61g0wnuaPeSZWY=
+
+Name: resources/web_clipper/data/skitch/images/pen_icon@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: zMyr0pxoIsly5A7sgR09dw==
+SHA1-Digest: DXT1M+AXh80Sws51feMohr70/0E=
+
+Name: resources/web_clipper/data/skitch/images/pink.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: XYvjNbE/JWDYP5PPXMn58w==
+SHA1-Digest: 3DBi21QGYYvheNVT2PSLDpMvQ5E=
+
+Name: resources/web_clipper/data/skitch/images/pink@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: zvEvmIfTW1BgycHF1lSgvw==
+SHA1-Digest: Q2p0CvheRnenOTr9qAHsOIaoQ6Q=
+
+Name: resources/web_clipper/data/skitch/images/pixelate.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: XeUJifZqLQR3Fwn67NZxdQ==
+SHA1-Digest: LGrLK1LsFWN7eEMg2z/tW8x5n8A=
+
+Name: resources/web_clipper/data/skitch/images/pixelate@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ZakduinwlEKgFOg9xZeT3Q==
+SHA1-Digest: AtDZa6WTaniQinWcc5TRaqj2iOI=
+
+Name: resources/web_clipper/data/skitch/images/pixelate_icon.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: GSplin4EiQxPJdETdMy07g==
+SHA1-Digest: H/wh7poFVlc6zRNpN+S/W8/WJH0=
+
+Name: resources/web_clipper/data/skitch/images/pixelate_icon@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 5glvmJpdmAMDnHF9Ma2fhg==
+SHA1-Digest: u2IsTwR0ZlsygxUGoCi0GHQmgyQ=
+
+Name: resources/web_clipper/data/skitch/images/rectangle.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Ie+ldlma/B/lmqFy1rh+4A==
+SHA1-Digest: UtzUP2IngzgU2+Wc+zZTewDPlHo=
+
+Name: resources/web_clipper/data/skitch/images/rectangle@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: e52D/oMd3x6ciqri7g/LBg==
+SHA1-Digest: IB/sps13D2Z2NHuF8qNRSSR++hs=
+
+Name: resources/web_clipper/data/skitch/images/rectangle_icon.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 2yxjtr3ty5RHIrQPa+zOfA==
+SHA1-Digest: ryLjQBQutfaC0suBYB8A3W5EA3c=
+
+Name: resources/web_clipper/data/skitch/images/rectangle_icon@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: hpAeZ8+ZkxMctqKbofeEmw==
+SHA1-Digest: MAi4xCWu1ABq49oQkSEsfvxFpX0=
+
+Name: resources/web_clipper/data/skitch/images/rectangle_round_icon.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: vdQTQN2RMnZbCr8BkkbsWw==
+SHA1-Digest: CCpl7lzz3tTasDooQKi9fr2sZ6k=
+
+Name: resources/web_clipper/data/skitch/images/rectangle_round_icon@2x.p
+ ng
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: aQOlwz0SPwSWf+nIfTiXUw==
+SHA1-Digest: 2h67SxLyMp1xjHpMBswjsX1+wfA=
+
+Name: resources/web_clipper/data/skitch/images/red.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: TDE+rUgbtNvO0hzb/5y7CQ==
+SHA1-Digest: dN2gdyj+yx+HkYOG8cY6wmG8rzE=
+
+Name: resources/web_clipper/data/skitch/images/red@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: z+vqFeJKu1GD9//jXfXSUg==
+SHA1-Digest: MO0MNe956299AoyU2pH7H/e2Mvw=
+
+Name: resources/web_clipper/data/skitch/images/roundedRectangle.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 13zFLLt3O7RtoLb9JncKKw==
+SHA1-Digest: vHIw+EldIFkx78PaOHxfsXUmLns=
+
+Name: resources/web_clipper/data/skitch/images/roundedRectangle@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 3fk0SZekIKLYXiSJWfWmcQ==
+SHA1-Digest: PLiUDn/uEWIFS6FzRLKytZZMdWQ=
+
+Name: resources/web_clipper/data/skitch/images/stamp_check_color.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: EPvW7GB5x2qgia2ImHItvw==
+SHA1-Digest: BQ0xcCkYrutvIe/mqJGuMlIY+Os=
+
+Name: resources/web_clipper/data/skitch/images/stamp_check_color@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: WZJXkiddDH0z95Yy+0ytMw==
+SHA1-Digest: UMaGVJfkqb6hB0z4fVzYu4HBqNY=
+
+Name: resources/web_clipper/data/skitch/images/stamp_check_color_icon.pn
+ g
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: +9o/VvnW96poBQ37P9J2sw==
+SHA1-Digest: 5kav5nBcdBHPlIdP7QDd/IfA9kg=
+
+Name: resources/web_clipper/data/skitch/images/stamp_check_color_icon@2x
+ .png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 9VZlNDJrSRGPKuGB3ZHgew==
+SHA1-Digest: Yxxnr8YwzKqsEtb5cJaVII5ds5c=
+
+Name: resources/web_clipper/data/skitch/images/stamp_check_icon.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: M5y4E4GZeRaakgWZyy/Ebw==
+SHA1-Digest: /77Rm4FSLnpzmRMez+0jmCertpw=
+
+Name: resources/web_clipper/data/skitch/images/stamp_check_icon@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: LX/hpoW7r38u9SjQzydwMg==
+SHA1-Digest: Fyhljbu8AMtpcC2iIew9bM6sLaQ=
+
+Name: resources/web_clipper/data/skitch/images/stamp_exclaim_color_icon.
+ png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 8gLgSVpLiE1G3533RdBNtQ==
+SHA1-Digest: YWeTRb/Wtm/danr8fI6H/f21WQ0=
+
+Name: resources/web_clipper/data/skitch/images/stamp_exclaim_color_icon@
+ 2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: VHP+MNf/5/SYfah+Y36VFg==
+SHA1-Digest: SYdL4/Ro2xeaRdPsqlW6JFTmFZ8=
+
+Name: resources/web_clipper/data/skitch/images/stamp_exclaim_icon.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: m32GuMOGc8Z11MO9hI3vWw==
+SHA1-Digest: Kv0pZNTE9j0L1UbghguPrEaYLj8=
+
+Name: resources/web_clipper/data/skitch/images/stamp_exclaim_icon@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: kVjrTomySdCVOgJnps7n0Q==
+SHA1-Digest: Uahh8uzAXnwdNTVcExbpSgUDLQQ=
+
+Name: resources/web_clipper/data/skitch/images/stamp_heart_color_icon.pn
+ g
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 1nxa5ewkPoalgUCwVEtZqw==
+SHA1-Digest: qI8c94MdtEF9cut84WywG4eMbrc=
+
+Name: resources/web_clipper/data/skitch/images/stamp_heart_color_icon@2x
+ .png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: +A7hdVa3J3ygR9QdsnAGpg==
+SHA1-Digest: P3ZNhUGDltbX9W+og5hQ0VWNDO8=
+
+Name: resources/web_clipper/data/skitch/images/stamp_heart_icon.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: FVaiiu7TcnDtyE11/v/o/A==
+SHA1-Digest: hd7hPodzOEtRKTWuD8w5e3Jo7Uc=
+
+Name: resources/web_clipper/data/skitch/images/stamp_heart_icon@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: QRbgxLbOmKbvx4M9QnlTnQ==
+SHA1-Digest: aPCdZctYVpnwA/yRUxGUNbUGPmM=
+
+Name: resources/web_clipper/data/skitch/images/stamp_question_color_icon
+ .png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: HJdwIeI0QzJ/5P9IvNXHVw==
+SHA1-Digest: uOQZN249TATofgVcay3OzYhcHz0=
+
+Name: resources/web_clipper/data/skitch/images/stamp_question_color_icon
+ @2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 3ObEjLJoyRJf1fNBxNps8g==
+SHA1-Digest: fQiySHvHGcX1EZmgKaLqJcSOWC4=
+
+Name: resources/web_clipper/data/skitch/images/stamp_question_icon.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: cPcED+qUjhezMWQaZcFVbA==
+SHA1-Digest: l5FY8hdDpm27hVowmng0LQF2ydM=
+
+Name: resources/web_clipper/data/skitch/images/stamp_question_icon@2x.pn
+ g
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 30wrwMy41P91QmVhL53P4w==
+SHA1-Digest: j15jT/HdRtOW2YmqN52Uy9G3R/w=
+
+Name: resources/web_clipper/data/skitch/images/stamp_x_color_icon.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 3LNz5BDpCQvWc1JBqVrCkw==
+SHA1-Digest: 28l/j6U6ayaB3JlwoMWaah5KN2Q=
+
+Name: resources/web_clipper/data/skitch/images/stamp_x_color_icon@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: XDPlOB8yhTfdO/0Q71bnng==
+SHA1-Digest: qxXuoMk4bw7qYF2tJ+I2NP8J8wM=
+
+Name: resources/web_clipper/data/skitch/images/stamp_x_icon.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: YYYoHtl8TRmXSK58NR6ONQ==
+SHA1-Digest: xt7g0jw837baUA/SHjJQ47naf9k=
+
+Name: resources/web_clipper/data/skitch/images/stamp_x_icon@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: sKIkDNqKXGMNA0H6SA2Paw==
+SHA1-Digest: WB/7Rqbyn8H7SQ4vYVnHGm9bAs8=
+
+Name: resources/web_clipper/data/skitch/images/subtool_arrow.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: zP52TUXshSbd92IFP74Ayg==
+SHA1-Digest: 9zzq9g+8Y1ZZZZP+LSHFwPsbF5I=
+
+Name: resources/web_clipper/data/skitch/images/subtool_arrow@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: kZaaxH2bSve1H6FOno5q2A==
+SHA1-Digest: fgCGcrMB9AsRc01t9MChk1rV0DI=
+
+Name: resources/web_clipper/data/skitch/images/text.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 5N3BHeK5X75E1mVIHwaNGA==
+SHA1-Digest: vbWMrrARI7U3AbzHXnfsqwOk+os=
+
+Name: resources/web_clipper/data/skitch/images/text@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: O488JcPQ878uA6U5rP6Agw==
+SHA1-Digest: uJlzIOPPaH4pCUxgcws956axn6Y=
+
+Name: resources/web_clipper/data/skitch/images/type_icon.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: /wXfbQVqHUDeCdpV8C9LPQ==
+SHA1-Digest: 9a2tdL7BXgfhTjmpK9GH+qSrlaw=
+
+Name: resources/web_clipper/data/skitch/images/type_icon@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: +iSBbp0qAYC6IU0KCHIl+g==
+SHA1-Digest: NKfQT+BAvmf5KL2spWfT66WWGCY=
+
+Name: resources/web_clipper/data/skitch/images/white.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ToSNZfYLQlu9s/Kw5YIBrQ==
+SHA1-Digest: 2P5893QZnzEMdafWZtD5fNLSGtU=
+
+Name: resources/web_clipper/data/skitch/images/white@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: q/9+z5rQMC8+XcDHaZeVuQ==
+SHA1-Digest: tXTnuTEwdMySL02x/yH1Pr/AtFk=
+
+Name: resources/web_clipper/data/skitch/images/yellow.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 0f9ianZHFllBj38oT9AW9Q==
+SHA1-Digest: qL/F30Ga4VV+KutQq5yfYESbBOw=
+
+Name: resources/web_clipper/data/skitch/images/yellow@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: q/HNBYoceQhR2u1D2Fgg2w==
+SHA1-Digest: IihSndOI9Nyx++T8T15qVXeGmF8=
+
+Name: resources/web_clipper/data/skitch/images/zoom_in_icon.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ESQsDIbflpmO/ADZJcPmeg==
+SHA1-Digest: DTtQH4q9+BnufAUxwIB1mXfE42o=
+
+Name: resources/web_clipper/data/skitch/images/zoom_in_icon@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: M6oLyl01pXXDOXdcWQNmtA==
+SHA1-Digest: /CtTJqHrgAzRV9uR0t5Da1rXCC0=
+
+Name: resources/web_clipper/data/skitch/images/zoom_out_icon.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: pnTxtzg3DaZrXdTYZNuk5w==
+SHA1-Digest: wBTDjjzEq9yGJnEWgoNKe0n55lM=
+
+Name: resources/web_clipper/data/skitch/images/zoom_out_icon@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: u80DBP94jJu9hVd0crgu5g==
+SHA1-Digest: U4zNh4X874OKCQxQiH8Mu3w/M7Y=
+
+Name: resources/web_clipper/data/skitch/images/zoomin.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 8eyvlopGDYjMX3IkKx0IdQ==
+SHA1-Digest: N6EeoRHLwQjJCvnxzQhwqgMU9o8=
+
+Name: resources/web_clipper/data/skitch/images/zoomin@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: EE0BQfwfLYuqMGwyZldZNQ==
+SHA1-Digest: oFGIV3cRFaFVu6bCyApR8uFxeic=
+
+Name: resources/web_clipper/data/skitch/images/zoomout.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: FgkK1f7ieFB5e972xJKMYw==
+SHA1-Digest: +uQgCk2fRrJa2FhTAZtcaGo7M/c=
+
+Name: resources/web_clipper/data/skitch/images/zoomout@2x.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: HYDDiWaPiS+sfCYGQps9Bg==
+SHA1-Digest: XkroGaw7d0mUM4kGEGrRiSOb7bw=
+
+Name: resources/web_clipper/data/skitch/js/markup.min.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: OmoRWf9N5dXtau0Z5POrSw==
+SHA1-Digest: vFbqiCT27rvvNZuePFaZ/LS629g=
+
+Name: resources/web_clipper/data/skitch/sounds/snap.wav
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: P+6MRAjaaFrdPS1DOyjqYQ==
+SHA1-Digest: QpkndlQrAOVrNqSSzmbtvfC92fE=
+
+Name: resources/web_clipper/data/third_party/jquery-1.8.3.min.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: NXam5zydzNu8Siz4/1RK1w==
+SHA1-Digest: BuhyMACIubqKCEJ9KO0O/N+cb/U=
+
+Name: resources/web_clipper/data/thrift/thrift-binary.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: gEzeXM5jan9MkOS0JepqnA==
+SHA1-Digest: RyWv2KqqSJxKtY/Qts7xsscBd+4=
+
+Name: resources/web_clipper/data/thrift/thrift.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: WqIdDTcC2ZfbAtWGLjyFiA==
+SHA1-Digest: tKo6t5lD74A1RG7dmYW2MrSzkGY=
+
+Name: resources/web_clipper/data/thrift/gen/Errors_types.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: SIIAoxI8kBnW+ihOZKPGEQ==
+SHA1-Digest: r1XxbwwiCkZgi2zq2oBOHR+0Ut4=
+
+Name: resources/web_clipper/data/thrift/gen/Limits_types.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: nknpM9OGTDVxgRucDkbeag==
+SHA1-Digest: 4Pq1g/eIu9R8xsY+l97HS86BtGM=
+
+Name: resources/web_clipper/data/thrift/gen/NoteStore.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: yxf02bQWGi8DtnVWh9Mu7g==
+SHA1-Digest: RiTI15ELDnCv+r1fA9hjFRs8GVA=
+
+Name: resources/web_clipper/data/thrift/gen/NoteStore_types.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: u9CyncLpRk0mdfSdHQFOfA==
+SHA1-Digest: /XTzE7rYIIqqB9NjzR6QUak3t3Y=
+
+Name: resources/web_clipper/data/thrift/gen/Types_types.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 4mszn0xnEJRy1PXr3ICHwg==
+SHA1-Digest: EXLk5M0IessuDfV0VFWxXrrksXA=
+
+Name: resources/web_clipper/data/thrift/gen/UserStore.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: amqKswtr7ptXFcsuHO+TAQ==
+SHA1-Digest: DGa78Xp/S81Ll7JERSBweTtfRQ8=
+
+Name: resources/web_clipper/data/thrift/gen/UserStore_types.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Gx4BjE85ceGvXnWAWZ0Hrw==
+SHA1-Digest: yr5Z4hzl4fPb/Lej+bWWti7PPd4=
+
+Name: resources/web_clipper/data/thrift/gen/Utility.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: to8cxvO51rEDgFsInUfnJA==
+SHA1-Digest: y+3QqAM4Scw7ZyiRpx/ugjm7PNc=
+
+Name: resources/web_clipper/data/thrift/gen/Utility_types.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Q2/sRpP6NUxkB9QW+djPQw==
+SHA1-Digest: BRLhmbG41HFlRlndcIIOSMiHo/U=
+
+Name: resources/web_clipper/lib/article-detector.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: G0UrxIXmMa4jRW2fSMTCLw==
+SHA1-Digest: szw/IL67Huu6XB0fKvzFhHCPLVI=
+
+Name: resources/web_clipper/lib/article-reformat.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: NykWrn43DtsRjh4MgTZrdg==
+SHA1-Digest: APg4mNBrJDRQquISefCK4C5EOWo=
+
+Name: resources/web_clipper/lib/article.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 2ed7d0OdZ6+uEtJgqJNlZQ==
+SHA1-Digest: iZACPfTRjsHHc3iY9hrs1i2bGvo=
+
+Name: resources/web_clipper/lib/async.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: G0HIF+P2/QeQGzLTorwRWw==
+SHA1-Digest: gcilW/M4wBiv0zoIj8eGFvzVkBs=
+
+Name: resources/web_clipper/lib/auth.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: DexTJ0c6TNaVeusgk7N1Mw==
+SHA1-Digest: 7N+Ifrb4l4cn/3pPgpBbAHYEG4k=
+
+Name: resources/web_clipper/lib/boot.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: gfTx8WEKeUnrKxzHOhIHoA==
+SHA1-Digest: wHKvR6cx+OPw2vGi1IYYuwU6UzA=
+
+Name: resources/web_clipper/lib/data-clipper.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: lB8p+MOH3GT9Xy5YhqJfkw==
+SHA1-Digest: SjPAxhweur6sEnTFLGt7tmdX2L4=
+
+Name: resources/web_clipper/lib/evernote.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 6YK/32vziawF1FTn4p8vsQ==
+SHA1-Digest: 7XdTH8vfXOpHaVdKjwa5zVzIK5g=
+
+Name: resources/web_clipper/lib/global-ui.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 8/7XmCvTFd9+FtAMiOpS5g==
+SHA1-Digest: w64EsfwJU+hsp00WuJ0yigHB9AY=
+
+Name: resources/web_clipper/lib/log.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: THCzXzPF+bOUWOtFkcsy+Q==
+SHA1-Digest: PVhsbIrehrF/Y/4gQMKi+b5eyVw=
+
+Name: resources/web_clipper/lib/main.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: JN5TAfgOw1j0uaRwfhAeBA==
+SHA1-Digest: yEO4ui0sMF0i7h70iKFa6Vhfh4k=
+
+Name: resources/web_clipper/lib/md5.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: kTHL2QR8+WNrRfZi6ZtkMQ==
+SHA1-Digest: YYIKK+TPPysuLTKtVmCjPjpCX/8=
+
+Name: resources/web_clipper/lib/menu.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 0xUMICsXjC7TEFKp8JfczQ==
+SHA1-Digest: fgXngwUuxDUJADdLhr3FOtBa42s=
+
+Name: resources/web_clipper/lib/metrics.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: vph8qNe9GPlPjANxqwbpvQ==
+SHA1-Digest: LLdoJJerKWZrBkb2be/gMXzoqeg=
+
+Name: resources/web_clipper/lib/native.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ZctKXeHe2hp2vmReYH1C+g==
+SHA1-Digest: YQl96bejUaVTZRlarmN5JgEgbGU=
+
+Name: resources/web_clipper/lib/net.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Q0u6zDtxKGDSZQVfE2xJUw==
+SHA1-Digest: HLX5LWA2DIeopktwdLSmVllWQ9k=
+
+Name: resources/web_clipper/lib/note-util.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: YJP+jwgqfxoZvT7Eg1JgJA==
+SHA1-Digest: 9xNjbDDczyXUF1XMMjI+1w4/tvE=
+
+Name: resources/web_clipper/lib/notebooks.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: +kYT/2Bnwd4hLkhAaqcaAQ==
+SHA1-Digest: 4xqzOfj6FGvHsTajwYYflIHhtzM=
+
+Name: resources/web_clipper/lib/pop-box.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: m4DN3uvEBFvEaXl5FiWFhQ==
+SHA1-Digest: 1x0Xm+w52f0apTI64FwV4lzQbPs=
+
+Name: resources/web_clipper/lib/popup.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 1yebPRLFj5+1bDMuaJoTKg==
+SHA1-Digest: lM98pCwNPN7DFCYtgXPyD1LgypA=
+
+Name: resources/web_clipper/lib/post-clip.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: gEDnSO9Sh5yLPIWw1YA1dQ==
+SHA1-Digest: BIjT+siYd8vfGRZsIoitCaTq32A=
+
+Name: resources/web_clipper/lib/rect-selector.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: KRYQwwSF92RHkw3K19ceIA==
+SHA1-Digest: kz/UBaQI9/7vtXFoWJIHCPzl32I=
+
+Name: resources/web_clipper/lib/registration.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: RTK4gnhbqHV0QVaMwfYmyQ==
+SHA1-Digest: vYIlegfEvauGchYK3CpGUDGh4k8=
+
+Name: resources/web_clipper/lib/rpc.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 18r+HwhfBAoa4wmlhR/siA==
+SHA1-Digest: EL7boIhbYou6g/EvlPS8yYB0GE8=
+
+Name: resources/web_clipper/lib/screenshot-selector.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: aCNPXSW9Ka3ZdWMilYBrjg==
+SHA1-Digest: cy3xRP5A410H+So/XAeYt5MaJYA=
+
+Name: resources/web_clipper/lib/selection-clipper.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 8JVylVm373Jp1frgqkxL6Q==
+SHA1-Digest: +iEZ6ML5/tYr8orqIP5xkTazZkY=
+
+Name: resources/web_clipper/lib/session-tracker.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: q7gOip49sqyY3R30laonsw==
+SHA1-Digest: vkcwaOrOQjgaRgFMJ3kXIr0sRYM=
+
+Name: resources/web_clipper/lib/sim-search.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: FAPYfiKS1VRjqjyX8zAXuQ==
+SHA1-Digest: i+u/M/NTHAQ2xxcPcJS2A6Ps4kA=
+
+Name: resources/web_clipper/lib/skitch.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: l3J8P5tBwDSLkLgRV2sT9w==
+SHA1-Digest: tmvwlD9Y2u38IO/A/U3b9dy8XRY=
+
+Name: resources/web_clipper/lib/sub-panel.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 9RybSaPhRSH56VIZCXkXKA==
+SHA1-Digest: KSUqK/V7Y4g/MVcibypIuD5KweU=
+
+Name: resources/web_clipper/lib/thrift-box.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 1wAKSSQgtk+wxYeykhuMyA==
+SHA1-Digest: 2bGKMqRiV9ft7gVyTRdlhfHJ98Y=
+
+Name: resources/web_clipper/lib/toolbar.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: RTa5T7gd5F1ZT6wNd+8jDw==
+SHA1-Digest: jetGGiqQYGmT9HdLRnQbjJWWFBI=
+
+Name: resources/web_clipper/lib/tracker.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: NVoyAgHUlxt5VNgO52xW1g==
+SHA1-Digest: jYi/hpZpqmrwoAT/LD43WFMLunY=
+
+Name: resources/web_clipper/lib/ui-dispatch.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: FPk0pEK9SBMSmRPMEtSIdw==
+SHA1-Digest: i/Q3Eaz7mwQI3qWl3++A5ajZj9s=
+
+Name: resources/web_clipper/lib/ui.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: L6d+KYGBDW9qYOd5ekT/ZA==
+SHA1-Digest: hXet8Uw3PWArb+nZnPwIlo8cDu8=
+
+Name: resources/web_clipper/lib/url.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: RKADPaL05VgXLMK0V5uZuw==
+SHA1-Digest: 4E6iUup6mTvP1JhReOAf6ivfdXw=
+
+Name: resources/web_clipper/lib/util.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: q7xaChXuLw8GXViMapwMDw==
+SHA1-Digest: XdYyzP+UE/YJBwyGJMvJhPTDyGM=
+
+Name: resources/web_clipper/lib/widget.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: IJr3urn/FRwVZdQLZDYuIw==
+SHA1-Digest: Xco4HRvvLjPwXO5RDCiK5TnEoFg=
+
+Name: resources/web_clipper/lib/xslt.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: bDzIBy66LbFq3OZz9ejJZw==
+SHA1-Digest: /4UJ8Dgqz1bvZSA4zgG+iWpEFHA=
+

@@ -1,0 +1,17 @@
+pref("extensions.{E0B8C461-F8FB-49b4-8373-FE32E9252800}.localStorageDisabled", false);
+pref("extensions.{E0B8C461-F8FB-49b4-8373-FE32E9252800}.storeMemoryLog", false);
+pref("extensions.{E0B8C461-F8FB-49b4-8373-FE32E9252800}.useHttps", true);
+pref("extensions.{E0B8C461-F8FB-49b4-8373-FE32E9252800}.configType", "prod");
+pref("extensions.{E0B8C461-F8FB-49b4-8373-FE32E9252800}.preferredLocation", "auto");
+pref("extensions.{E0B8C461-F8FB-49b4-8373-FE32E9252800}.server", "auto");
+pref("extensions.{E0B8C461-F8FB-49b4-8373-FE32E9252800}.globalShortcuts", false);
+pref("extensions.{E0B8C461-F8FB-49b4-8373-FE32E9252800}.clipDestination", "cloud");
+pref("extensions.{E0B8C461-F8FB-49b4-8373-FE32E9252800}.afterClip", "full");
+pref("extensions.{E0B8C461-F8FB-49b4-8373-FE32E9252800}.smartFilingBiz", true);
+pref("extensions.{E0B8C461-F8FB-49b4-8373-FE32E9252800}.simSearch", true);
+pref("extensions.{E0B8C461-F8FB-49b4-8373-FE32E9252800}.defaultNotebookGuid", "");
+pref("extensions.{E0B8C461-F8FB-49b4-8373-FE32E9252800}.notebookSelection", "smart");
+pref("extensions.{E0B8C461-F8FB-49b4-8373-FE32E9252800}.smartTags", true);
+pref("extensions.{E0B8C461-F8FB-49b4-8373-FE32E9252800}.defaultTags", true);
+pref("extensions.{E0B8C461-F8FB-49b4-8373-FE32E9252800}.defaultTagString", "");
+pref("extensions.{E0B8C461-F8FB-49b4-8373-FE32E9252800}.defaultClipAction", "last");

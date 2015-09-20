@@ -1,0 +1,207 @@
+@font-face {
+  font-family: "Gotham Medium";
+  src: url(fonts/GothamSSm-Medium.otf);
+  font-weight: normal;
+}
+
+body, html, ul, input, li {
+  margin:0;
+  padding: 0;
+  border: 0;
+  background-repeat: no-repeat;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul,li {
+  list-style-type: none;
+}
+
+html {
+  overflow: hidden;
+  position: absolute;
+}
+
+body {
+  width: 254px;
+  background-color: #bbcbd5;
+  border-radius: 2px;
+  color: #2f373d;
+  font-family: "Gotham Medium", sans-serif;
+  font-size:  11px;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.find {
+  font-family: "Gotham Medium", sans-serif;
+  width: 218px;
+  height: 22px;
+  background-color: #e3edf3;
+  color: #2f373d;
+  border-radius: 11px;
+  margin: 10px 18px 8px;
+  background-image: url(images/search.png);
+  background-size: 12px 12px;
+  background-position: 5px 5px;
+  padding: 0px 5px 0px 22px;
+}
+
+.find::-moz-placeholder {
+  color: #888;
+}
+
+ul.notebooks {
+  max-height: 288px;
+  width: 253px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+ul.notebooks li {
+  color: #2f373d;
+  height: 24px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: middle;
+  line-height: 24px;
+  padding-top: 1px;
+  padding-left: 50px;
+  padding-right: 24px;
+  background-position: 21px 1px;
+  background-color: #bbcbd5;
+  cursor: pointer;
+  background-size: 22px 22px;
+  position: relative;
+}
+
+ul.notebooks li.disabled,
+ul.notebooks li.disabled:hover,
+ul.notebooks li.disabled.selected {
+  display: none;
+  background-color: #e3edf3;
+}
+
+ul.notebooks li:hover {
+  background-color: #99afbd;
+}
+
+ul.notebooks li.stack:hover {
+}
+
+ul.notebooks li.selected {
+  color: #ffffff !important;
+  background-color: #4ca4e6 !important;
+}
+
+ul.notebooks li.selected:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 24px;
+  height: 24px;
+  background-image: url(images/checkmark_icon.png);
+  background-size: 13px 11px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+ul.notebooks li.selected span {
+  color: #ffffff !important;
+  background-color: #4ca4e6 !important;
+}
+/* owner */
+ul.notebooks li span {
+  font-size: 9px;
+  color: #53626e;
+  padding-left: 5px;
+}
+
+ul.notebooks .stack {
+  background-image: url(images/stack_dark_icon.png);
+}
+
+ul.notebooks .business, ul.notebooks .linked.business {
+  background-image: url(images/business_dark_icon.png);
+}
+
+ul.notebooks .linked {
+  background-image: url(images/shared_dark_icon.png);
+}
+
+ul.notebooks .stack.selected {
+  background-image: url(images/stack_light_icon.png);
+}
+
+ul.notebooks .business.selected, ul.notebooks .linked.business.selected  {
+  background-image: url(images/business_light_icon.png);
+}
+
+ul.notebooks .linked.selected{
+  background-image: url(images/shared_light_icon.png);
+}
+
+ul.notebooks .stacked {
+  padding-left: 65px;
+  background-position: 35px 1px;
+}
+
+ul.notebooks.filtered {
+
+}
+
+ul.notebooks.filtered li.stack {
+  display: none;
+}
+
+ul.notebooks.filtered li.stacked {
+  padding-left: 50px;
+  background-position: 21px 1px;
+}
+
+
+@media (min--moz-device-pixel-ratio: 2),    /* Prior to Firefox 16 */
+(min-resolution: 2dppx),             /* The standard way */
+(min-resolution: 192dpi) {
+  .find {
+    background-image: url(images/search@2x.png);
+  }
+
+  ul.notebooks li.selected:after {
+    background-image: url(images/checkmark_icon@2x.png);
+  }
+
+  ul.notebooks .stack {
+    background-image: url(images/stack_dark_icon@2x.png);
+  }
+
+  ul.notebooks .linked {
+    background-image: url(images/shared_dark_icon@2x.png);
+  }
+
+  ul.notebooks .business, ul.notebooks .business.linked {
+    background-image: url(images/business_dark_icon@2x.png);
+  }
+
+  ul.notebooks .stack.selected {
+    background-image: url(images/stack_light_icon@2x.png);
+  }
+
+  ul.notebooks .business.selected, ul.notebooks .linked.business.selected  {
+    background-image: url(images/business_light_icon@2x.png);
+  }
+
+  ul.notebooks .linked.selected {
+    background-image: url(images/shared_light_icon@2x.png);
+  }
+
+  ul.notebooks li.selected:after {
+    background-image: url(images/checkmark_icon@2x.png);
+  }
+}

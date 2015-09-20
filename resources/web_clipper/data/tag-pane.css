@@ -1,0 +1,54 @@
+@import url(fonts.css);
+
+html {
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: 300px;
+
+}
+
+body, html, ul, input, li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-repeat: no-repeat;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+ul, li {
+  list-style-type: none;
+}
+
+body {
+  width: 182px;
+  background-color: #bbcbd5;
+  color: #2f373d;
+  max-height: 90px;
+  font-family: "Gotham Medium", sans-serif;
+  font-size: 13px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul.tags {
+}
+
+ul.tags li {
+  padding: 0px 5px;
+  width: 182px;
+  height: 18px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: top;
+}
+
+ul.tags li:hover {
+  color: #ffffff;
+  background-color: #99afbd;
+}
+
+ul.tags li.selected {
+  color: #ffffff;
+  background-color: #4ca4e6;
+}

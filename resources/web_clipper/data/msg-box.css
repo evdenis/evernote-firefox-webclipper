@@ -1,0 +1,97 @@
+@font-face {
+  font-family: "caecilia-bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("fonts/caecilialtstd-bold-webfont.woff") format("woff");
+
+}
+
+@font-face {
+  font-family: "caecilia-italic";
+  font-style: normal;
+  font-weight: normal;
+  src: url("fonts/caecilialtstd-italic-webfont.woff") format("woff");
+
+}
+
+div, q, span, html, body {
+  border: none;
+  padding: 0;
+  margin: 0;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  width: 424px;
+  height: 80px;
+  overflow: hidden;
+}
+
+body {
+  width: 424px;
+  height: 80px;
+  background-color: #2f373d;
+  -moz-box-sizing: padding-box;
+  box-sizing: padding-box;
+  white-space: nowrap;
+  font-size: 15px;
+  overflow: hidden;
+  font-family: "caecilia-italic", serif;
+  text-shadow: 0px 1px 2px rgba(0,0,0,0.6);
+  padding: 15px 20px 20px;
+  text-align: center;
+}
+
+.loading_icon {
+  width: 26px;
+  height: 26px;
+  background-image: url(images/loading.gif);
+  background-repeat: no-repeat;
+  background-size: 26px 26px;
+  background-position: center center;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 7px;
+}
+
+.upper {
+  margin-bottom: 4px;
+  font-family: "caecilia-bold", sans-serif;
+  color: #26b064;
+  font-size: 15px;
+}
+
+
+q {
+  color: #fff;
+  font-family: "caecilia-italic", serif;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+  height: 20px;
+  line-height: 20px;
+  max-width: 400px;
+
+}
+
+q > span {
+}
+
+span.action {
+  display: none;
+}
+body[action='clipping'] #clipping {
+  display: inline;
+}
+
+body[action='syncing'] #syncing {
+  display: inline;
+}
+
+@media (min--moz-device-pixel-ratio: 2),    /* Prior to Firefox 16 */
+(min-resolution: 2dppx),             /* The standard way */
+(min-resolution: 192dpi) {
+  .loading_icon {
+    background-image: url(images/loading@2x.gif);
+  }
+}
