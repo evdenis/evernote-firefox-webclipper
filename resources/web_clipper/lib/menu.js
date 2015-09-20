@@ -10,6 +10,7 @@ const Log = require('./log');
 const Util = require('./util');
 const TabTracker = require('./tracker').TabTracker;
 
+var { Hotkey } = require("sdk/hotkeys");
 var menuItems = [];
 
 function getSelectedNode(target) {
@@ -67,7 +68,15 @@ function onLogin() {
           }
         }
     );
+    var hk_clipUrl = Hotkey({
+       combo: "alt-u",
+       onPress: function () {
+         var webClip = TabTracker.getInstance('WebClip');
+         webClip && webClip.clipUrlImmediate();
+       }
+    });
     menuItems.push(clipUrl);
+    menuItems.push(hk_clipUrl);
   }
 
   if (1/* selection implemented*/) {
@@ -85,7 +94,18 @@ function onLogin() {
           }
         }
     );
+    var hk_clipSelection = Hotkey({
+       combo: "alt-l",
+       onPress: function () {
+          var s = Util.getTabWindow(Util.getActiveTab()).getSelection().toString();
+          if (s) {
+             var webClip = TabTracker.getInstance('WebClip');
+             webClip && webClip.clipSelectionImmediate();
+          }
+       }
+    });
     menuItems.push(clipSelection);
+    menuItems.push(hk_clipSelection);
   }
 
   if (1/* clip screenshot enabled */) {
